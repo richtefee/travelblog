@@ -1,0 +1,69 @@
+{{/*
+Hugo shortcode to embed a uMap/OpenStreetMap iframe
+Usage example:
+
+{{< openstreetmap
+    mapName="demo-map_1"
+    scale="14"
+    coordX="-37.7989"
+    coordY="145.0003"
+    mapWidth="100%"
+    mapHeight="600px"
+    class="my-map"
+    scaleControl="true"
+    miniMap="false"
+>}}
+*/}}
+
+{{ $mapName := .Get "mapName" | default "demo-map" }}
+{{ $mapWidth := .Get "mapWidth" | default "100%" }}
+{{ $mapHeight := .Get "mapHeight" | default "600px" }}
+{{ $class := .Get "class" }}
+
+{{ $scale := .Get "scale" | default "" }}
+{{ $coordX := .Get "coordX" | default "" }}
+{{ $coordY := .Get "coordY" | default "" }}
+
+{{/* uMap control options with defaults */}}
+{{ $scaleControl := .Get "scaleControl" | default "true" }}
+{{ $miniMap := .Get "miniMap" | default "false" }}
+{{ $scrollWheelZoom := .Get "scrollWheelZoom" | default "true" }}
+{{ $zoomControl := .Get "zoomControl" | default "true" }}
+{{ $allowEdit := .Get "allowEdit" | default "false" }}
+{{ $moreControl := .Get "moreControl" | default "true" }}
+{{ $searchControl := .Get "searchControl" | default "true" }}
+{{ $tilelayersControl := .Get "tilelayersControl" | default "null" }}
+{{ $embedControl := .Get "embedControl" | default "null" }}
+{{ $datalayersControl := .Get "datalayersControl" | default "true" }}
+{{ $onLoadPanel := .Get "onLoadPanel" | default "none" }}
+{{ $captionBar := .Get "captionBar" | default "true" }}
+
+{{/* Build the iframe URL safely */}}
+{{ $src := printf "https://umap.openstreetmap.fr/en/map/%s?scaleControl=%s&miniMap=%s&scrollWheelZoom=%s&zoomControl=%s&allowEdit=%s&moreControl=%s&searchControl=%s&tilelayersControl=%s&embedControl=%s&datalayersControl=%s&onLoadPanel=%s&captionBar=%s"
+    ($mapName | urlquery)
+    ($scaleControl | urlquery)
+    ($miniMap | urlquery)
+    ($scrollWheelZoom | urlquery)
+    ($zoomControl | urlquery)
+    ($allowEdit | urlquery)
+    ($moreControl | urlquery)
+    ($searchControl | urlquery)
+    ($tilelayersControl | urlquery)
+    ($embedControl | urlquery)
+    ($datalayersControl | urlquery)
+    ($onLoadPanel | urlquery)
+    ($captionBar | urlquery)
+}}
+
+{{/* Add optional scale/coordinates */}}
+{{ if or $scale $coordX $coordY }}
+  {{ $src = printf "%s#%s/%s/%s" $src $scale $coordX $coordY }}
+{{ end }}
+
+<iframe
+    {{ with $class }}class="{{ . }}"{{ end }}
+    width="{{ $mapWidth }}"
+    height="{{ $mapHeight }}"
+    frameborder="0"
+    src="{{ $src }}">
+</iframe>
