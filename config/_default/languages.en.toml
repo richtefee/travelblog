@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Travelchen"
+title = "Timezone Nomads"
 
 [params]
   displayName = "EN"

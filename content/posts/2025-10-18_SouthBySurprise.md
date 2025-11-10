@@ -1,9 +1,9 @@
 ---
-title: "My first post"
-date: 2023-08-14
+title: "South by Surprise"
+date: 2025-10-18
 draft: false
-summary: "This is my first post on my site"
-tags: ["space","cameroon"]
+summary: "Why we ended up travelling to Cameroon and How we got there."
+tags: ["cameroon"]
 ---
 
 ## A sub-title
