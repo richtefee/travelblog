@@ -1,0 +1,3 @@
+{{ $path := printf "%s%s" "/" (.Get "src") }}
+{{ $svg := readFile (printf "%s%s" "static" $path) }}
+{{ $svg | safeHTML }}
