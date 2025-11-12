@@ -17,7 +17,7 @@ Bis September 2025 hieß es dann noch, _schnell_ unsere Projekte abzuschließen,
 
 ## What to expect here?
 Hier werden wir den weiteren Verlauf unserer Reise in Text und Bild festhalten. Zunächst müssen wir selbst noch einiges lernen, doch wir hoffen, diesen noch rudimentären Blog nach und nach auszubauen und auch einen guten Rythmus zu finden, damit es für euch spanned bleibt und gleichzeitig für uns eine schöne Erninnerungsstütze wird.
-In diesem Sinne findet ihr jetzt direkt schon unseren ersten:
+In diesem Sinne findet ihr jetzt direkt schon unseren ersten Reisebericht:
 {{< article link="/posts/2025-10-18_southbysurprise/" showSummary=true compactSummary=true >}}
 
 
