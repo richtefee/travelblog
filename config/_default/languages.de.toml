@@ -1,24 +1,24 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+languageCode = "de"
+languageName = "Deutsch"
 weight = 1
 title = "Timezone Nomads"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "DE"
+  isoCode = "de"
   rtl = false
-  dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
+  dateFormat = "2 Januar 2006"
+  logo = "img/Logo.svg"
+ # secondaryLogo = "img/Logo_v4b.svg"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
+[params.author]
 #   name = "We are"
 #   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
+  image = "img/Profile.JPG"
+  imageQuality = 96
 #   headline = "I'm only human"
 #   bio = "A little bit about you"
 #   links = [
