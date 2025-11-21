@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://travel.felsan.de/sitemap.xml
+Disallow: /
