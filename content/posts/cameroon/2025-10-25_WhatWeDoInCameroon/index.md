@@ -61,7 +61,7 @@ Die Fortbildung war jeweils für sechs Tage angesetzt. Hier assistierten wir und
 {{< /gallery >}}
 
 ### Der Traum von Mbouo
-Ein anderes Kollaborationsprojekt mit der Charité wurde aufgrund der in Kamerun aufkommenden Unruhen nach der Verkündung der Wahlergebnisse <mark>( BlogIdee )</mark> ins nächste Jahr verschoben. Schade, denn dieses Projekt hätte vorgesehen, dass HoH in Mbouo, einem ländlichen Dorf im Nordwesten Kameruns, ein vergleichbares Mental Health Training durchführt. Für uns wäre dies sowohl eine gute Gelegenheit gewesen, die beteiligten Organisatoren persönlich zu treffen, als auch eine andere Region Kameruns aus dem Alltag heraus kennenzulernen.
+Ein anderes Kollaborationsprojekt mit der Charité wurde aufgrund der in Kamerun aufkommenden Unruhen nach der Verkündung der Wahlergebnisse <mark>( Blogidee )</mark> ins nächste Jahr verschoben. Schade, denn dieses Projekt hätte vorgesehen, dass HoH in Mbouo, einem ländlichen Dorf im Nordwesten Kameruns, ein vergleichbares Mental Health Training durchführt. Für uns wäre dies sowohl eine gute Gelegenheit gewesen, die beteiligten Organisatoren persönlich zu treffen, als auch eine andere Region Kameruns aus dem Alltag heraus kennenzulernen.
 
 ### Laufende Aktivitäten
 Die bisherige Capacity-Building-Arbeit schafft die Grundlage für das nächste große Vorhaben: Zukünftig möchte HoH die Zentren nicht nur psychosozial, sondern auch in der Erkennung und Betreuung psychiatrischer Fälle stärken. Dieses Anschlussprojekt ist gerade im Aufbau.
