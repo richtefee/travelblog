@@ -7,7 +7,7 @@ summary: "Wie wir die Arbeit von HoH vor Ort erleben und begleiten."
 tags: []
 ---
 
-In [South by surprise]({{< relref "posts/cameroon/2025-10-18_SouthBySurprise" >}}) war die Rede vom Verein [Hand on Heart (HoH)](https://handonheartcameroon.com), der uns nach Kamerun verschlagen hat. Aber worum handelt es sich dabei eigentlich und was haben wir damit zu tun?
+In [Süden statt Osten]({{< relref "posts/cameroon/2025-10-18_SouthBySurprise" >}}) war die Rede vom Verein [Hand on Heart (HoH)](https://handonheartcameroon.com), der uns nach Kamerun verschlagen hat. Aber worum handelt es sich dabei eigentlich und was haben wir damit zu tun?
 
 ## Die Vorgeschichte
 Wir schreiben das Jahr 2020. Kurz bevor die Covid 19 Pandemie die Welt aufmischte, ging Sandrine im Januar für zwei Monate nach Kamerun. Im Anschluss an ihren Austausch in Australien, war der Plan einige Zeit in einem sehr anderen Land zu leben. Auswahlkriterien waren das Beherrschen der lokalen Sprache, sowie die Möglichkeit, am (Arbeits-) Alltag der Menschne vor Ort teilzuhaben. Über die Plattform Workaway, die uns schon in Südamerika gut genützt hatte, fand Sandrine ein kamerunisches Projekt - Hand on Heart (HoH) - zur Integration psychisch kranker Menschen in Kamerun. Zufälligerweise hieß dessen Gründerin ebenfalls "Sandrine". Unter diesem guten Omen stand die 2020 Reise nach Kamerun schnell fest.
