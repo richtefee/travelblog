@@ -18,7 +18,7 @@ enableCodeCopy = false
 replyByEmail = false
 
 # mainSections = ["section1", "section2"]
-# robots = ""
+robots = "none"
 
 disableImageOptimization = false
 disableImageOptimizationMD = false
