@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1781.3328"
+   height="910.87"
+   version="1.1"
+   viewBox="0 0 1335.9497 683.15001"
+   id="svg8923"
+   sodipodi:docname="TimeZones_simpl.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.14433003"
+     inkscape:cx="110.85704"
+     inkscape:cy="1108.5704"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8923" />
+  <defs
+     id="defs9">
+    <!-- Linear gradient inlined -->
+    <linearGradient
+       id="linearGradient12"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.6666769,0,0,1.3333382,-4250.7862,-423.26556)"
+       x1="1923.2993"
+       y1="1018.2891"
+       x2="2257.2981"
+       y2="1018.2891"
+       spreadMethod="reflect">
+      <stop
+         style="stop-color:#ffbb3b;stop-opacity:1;"
+         offset="0.25"
+         id="stop1" />
+      <stop
+         style="stop-color:#0a9396;stop-opacity:1"
+         offset="0.75"
+         id="stop2" />
+    </linearGradient>
+    <!-- Pattern inlined (was referencing pattern12-1) -->
+    <pattern
+       id="pattern7"
+       patternUnits="userSpaceOnUse"
+       width="1781.333"
+       height="910.87001"
+       preserveAspectRatio="xMidYMid"
+       patternTransform="translate(-4.3807374e-6)">
+      <animateTransform
+         attributeName="patternTransform"
+         type="translate"
+         from="0,0"
+         to="-1781.3330,0"
+         dur="15s"
+         repeatCount="indefinite" />
+      <rect
+         style="fill:url(#linearGradient12);fill-opacity:1;stroke:none;stroke-width:25.3832;stroke-dasharray:152.299,152.299"
+         id="rect1-1-2-3-2"
+         width="1781.333"
+         height="910.87"
+         x="0"
+         y="0" />
+    </pattern>
+    <!-- Optional: keep pattern12-1 in case Inkscape needs it -->
+  </defs>
+  <!-- Rectangle using pattern7 -->
+  <rect
+     id="rect33"
+     width="1335.9949"
+     height="683.15002"
+     x="-0.022586523"
+     y="-7.2070311e-06"
+     style="opacity:0.6;fill:url(#pattern7);fill-opacity:1;stroke:none;stroke-width:5.5201;stroke-dasharray:33.1207, 33.1207"
+     inkscape:label="DaylightRect" />
+</svg>
