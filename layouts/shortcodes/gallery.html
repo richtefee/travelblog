@@ -1,0 +1,45 @@
+{{ $id := delimit (slice "gallery" (partial "functions/uid.html" .)) "-" -}}
+{{ $content := .Inner -}}
+
+{{/* find all img tags */}}
+{{ range findRE `<img\s+[^>]*>` $content -}}
+  {{ $imgTag := . -}}
+
+  {{/* extract src attribute */}}
+  {{ with findRESubmatch `src=['"]([^'"]+)['"]` $imgTag -}}
+    {{ $srcAttr := index (index . 0) 0 -}}
+    {{ $srcValue := index (index . 0) 1 -}}
+
+    {{/* get Hugo resource */}}
+    {{ $imgResource := "" -}}
+    {{ if or (hasPrefix $srcValue "http://") (hasPrefix $srcValue "https://") -}}
+      {{ with resources.GetRemote $srcValue -}}
+        {{ $imgResource = . -}}
+      {{ end -}}
+    {{ else -}}
+      {{ with $.Page.Resources.GetMatch $srcValue -}}
+        {{ $imgResource = . -}}
+      {{ else -}}
+        {{ with resources.GetMatch $srcValue -}}
+          {{ $imgResource = . -}}
+        {{ end -}}
+      {{ end -}}
+    {{ end -}}
+
+    {{ if $imgResource }}
+      {{/* create resized versions */}}
+      {{ $small := $imgResource.Resize "400x" }}
+      {{ $medium := $imgResource.Resize "800x" }}
+      {{ $large := $imgResource.Resize "1200x" }}
+
+      {{/* build new img tag with srcset */}}
+      {{ $newTag := replace $imgTag $srcAttr (printf `src="%s" srcset="%s 400w, %s 800w, %s 1200w, %s 2000w" sizes="(max-width: 768px) 100vw, 50vw"` $medium.RelPermalink $small.RelPermalink $medium.RelPermalink $large.RelPermalink $imgResource.RelPermalink) -}}
+
+      {{ $content = replace $content $imgTag $newTag -}}
+    {{ end }}
+  {{ end -}}
+{{ end -}}
+
+<div id="{{- $id -}}" class="gallery">
+  {{ $content | safeHTML -}}
+</div>
