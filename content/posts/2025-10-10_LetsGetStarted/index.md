@@ -21,9 +21,9 @@ Bis September 2025 hieß es dann noch, "schnell" unsere Projekte abzuschließen,
 ## Unsere ersten Länder...
 Der Zug brachte uns zunächst nach Mannheim - **Deutschland**, hier warteten breits ein paar praktische Ausrüstungsgegenstände wie ein portabler Wasserfilter und Insektenrepellent auf uns. Aber vorallem verbrachten wir einen schönen Abend mit Felix's Brüdern.
 
-Am kommenden Mittag nahemn wir einen Flixbus und durchquerten **Luxemburg** um nach Brüssel - **Belgien** zu reisen. Hier hießen uns Barbara sowie ihr Partner willkommen. Wir hatten die beiden über eine Couchsurfing Platform gefunden. Bisher, waren wir hier nur als Gastgeber aktiv, aber wir hätten uns keine besseren ersten Hosts wünschen können.
+Am kommenden Mittag nahemn wir einen Flixbus und durchquerten **Luxemburg** um nach Brüssel - **Belgien** zu reisen. Hier hießen uns Barbara und Boon herzlich willkommen. Wir hatten die beiden über eine Couchsurfing Platform gefunden. Bisher, waren wir hier nur als Gastgeber aktiv, aber wir hätten uns keine besseren ersten Hosts wünschen können.
 
-![Felix und Sandrine mit ersten Cousurfing Hosts](CouchersHosts.JPG "Unser kurzer Zwischenhalt in Brüssel wurde von Barbara und ihrem Parter ermöglicht, die uns warmherzig in ihrer Wohnung Willkommen hießen.")
+![Felix und Sandrine mit ersten Cousurfing Hosts](CouchersHosts.JPG "Unser kurzer Zwischenhalt in Brüssel wurde von Barbara und Boon ermöglicht, die uns warmherzig in ihrer Wohnung Willkommen hießen.")
 
 Unsere Reise ist somit gestartet und wir sind auf dem Weg nach Osten... naja fast!
 
