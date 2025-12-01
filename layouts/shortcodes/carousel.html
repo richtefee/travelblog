@@ -2,7 +2,8 @@
 {{ $aspect := (split (.Get "aspectRatio") "-") }}
 {{ $aspectx := default "16" (index $aspect  0) }}
 {{ $aspecty := default "9" (index $aspect  1) }}
-{{ $interval := default "2000" (.Get "interval") }}
+{{ $interval := default "2000" (.Get "interval") }}        <!-- 8s auto-slide -->
+{{ $transitionDuration := default "2000" (.Get "transition") }} <!-- 0.5s transition -->
 
 {{ $page := .Page.Resources }}
 {{ $imagesTemp := .Get "images" }}
@@ -18,13 +19,13 @@
   {{ end }}
 {{ end }}
 
-
 <div
   id="{{ $id }}"
   class="relative"
   data-twe-carousel-init
   data-twe-ride="carousel"
   data-twe-interval="{{ $interval }}">
+
   <div
     class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
     data-twe-carousel-indicators>
@@ -47,7 +48,7 @@
       <div
         class="relative float-left -mr-[100%] {{ $hiddenClass }} w-full transition-transform ease-in-out motion-reduce:transition-none"
         data-twe-carousel-item
-        style="transition-duration: {{ $interval }}ms;"
+        style="transition-duration: {{ $transitionDuration }}ms;"
         {{ if eq $index 0 }}data-twe-carousel-active{{ end }}>
         <div
           class="single_hero_background"
@@ -84,8 +85,7 @@
     </span>
     <span
       class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Previous</span
-    >
+      >Previous</span>
   </button>
 
   <button
@@ -106,7 +106,6 @@
     </span>
     <span
       class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Next</span
-    >
+      >Next</span>
   </button>
 </div>

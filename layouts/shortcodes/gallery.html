@@ -27,13 +27,12 @@
     {{ end -}}
 
     {{ if $imgResource }}
-      {{/* create resized versions */}}
+      {{/* create resized versions (no medium) */}}
       {{ $small := $imgResource.Resize "400x" }}
-      {{ $medium := $imgResource.Resize "800x" }}
       {{ $large := $imgResource.Resize "1200x" }}
 
-      {{/* build new img tag with srcset */}}
-      {{ $newTag := replace $imgTag $srcAttr (printf `src="%s" srcset="%s 400w, %s 800w, %s 1200w, %s 2000w" sizes="(max-width: 768px) 100vw, 50vw"` $medium.RelPermalink $small.RelPermalink $medium.RelPermalink $large.RelPermalink $imgResource.RelPermalink) -}}
+      {{/* build new img tag with srcset (medium removed) */}}
+      {{ $newTag := replace $imgTag $srcAttr (printf `src="%s" srcset="%s 400w, %s 1200w, %s 2000w" sizes="(max-width: 768px) 100vw, 50vw"` $small.RelPermalink $small.RelPermalink $large.RelPermalink $imgResource.RelPermalink) -}}
 
       {{ $content = replace $content $imgTag $newTag -}}
     {{ end }}
