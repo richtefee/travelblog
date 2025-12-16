@@ -73,7 +73,7 @@
             src="{{ $medium.RelPermalink }}"
             srcset="{{ $small.RelPermalink }} 400w, {{ $medium.RelPermalink }} 800w, {{ $large.RelPermalink }} 1200w"
             sizes="(max-width: 768px) 100vw, 50vw"
-            class="block not-prose nozoom {{ $fitClass }}"
+            class="block not-prose {{ $fitClass }}"
             alt="carousel image {{ add $index 1 }}">
         </div>
       </div>
