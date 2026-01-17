@@ -6,7 +6,7 @@ draft: false
 summary: "Weihnachten bedeutet Tradition, wie sehen diese also hier aus?" 
 tags: []
 ---
-{{< video src="Videos/Schule.webm" autoplay="false" loop="false" width="100%" controls="true" caption="Weihnachtsfeiern sowohl in der Schule als auch mit der Familie bestehen zu gutem Teil aus Tanzen.">}}
+{{< video src="Videos/Schule.webm" poster="Videos/Schule.jpg" autoplay="false" loop="false" width="100%" controls="true" caption="Weihnachtsfeiern sowohl in der Schule als auch mit der Familie bestehen zu gutem Teil aus Tanzen.">}}
 
 Weihanchten ist hier so ein Ding. Wenn man fragt, scheint es ein größeres Fest zu sein, auf das sich Leute freuen und einstellen. Wie man hört, laufen im Dezember auch viele Aktivitäten nur noch auf Sparflamme, schließlich bereitet man sich auf das besinnliche Fest vor, geht weniger raus und verbringt die Zeit vor Weihanchten lieber im heimeligen Zuhause. Für uns war in der Gesamtatmosphäre der Adventszeit allerdings kaum ein Unterschied spürbar. Wenn überhaupt, dann waren die Straßen - vor allem Abends - kurz vor Weihnachten voller und wuseliger, war es um diese Zeit doch deutlich schwieriger an ein Taxi zu kommen. Auch schien bis kurz vor Weihnachten gar nicht besonders klar, wer eigentlich wann genau frei hat. Während für den Papa angekündigt wurde, dass er sowieso durcharbeiten müsse, schien für Schüler und Studenten selbst bis zum Tag davor nicht richtig klar, wann jetzt genau keine Kurse stattfinden. Doch in Summe wurde das Fest mit Freude antizipiert und gefeiert. Aber der Reihe nach:
 
@@ -17,7 +17,7 @@ Wenige Tage vor Weihnachten kramten die Kinder in freudiger Vorbereitung den kle
 
 ## Schulfeier und Adventszeit
 Zum Trimesterende lud die Grundschule der beiden Jungs zu einer Feier ein - und beim Feiern gibt es hier keine halben Sachen. Meine Güte, was für eine Morzstimmung: laute energetische Mucke, Moderator, sogar ein DJ wurde engagiert um die stolzen Eltern (vor allem Mütter) bestens zu unterhalten. Hin und wieder sangen ein paar Schüler Karaoke, im Wesentlichen bestand das Programm aber in Tänzen die jede Klasse vorbereitet hatte. Und bei den Kinderscharen, lasst euch sagen, das waren es eine Menge Tänze. 😅 Während der Tänze kamen von Zeit zu Zeit stolze Mamas und Papas, Tanten und Onkel zu den tanzenden Kindern und ließen Geldscheine auf ihren Schützling fallen, das der Schule als Spende dient.
-
+tabs
 {{< carousel images="Schulfeier/*" interval="5000" >}}
 
 Im Anschluss wurden für jede Klasse dann noch Auszeichungen an die 5 besten SchülerInnen verliehen, jedes Mal unter nicht weniger späktakulär übersteuerten, fancy DJ-Sounds.🔊
