@@ -1,0 +1,13 @@
+{{ $src := .Get "src" }}
+{{ with .Page.Resources.GetMatch $src }}
+<figure>
+  <audio controls preload="metadata" style="width: 100%;">
+    <source src="{{ .RelPermalink }}">
+  </audio>
+  {{ with $.Get "caption" }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>
+{{ else }}
+{{ errorf "Audio file not found: %s" $src }}
+{{ end }}
