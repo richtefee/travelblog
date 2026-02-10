@@ -5,6 +5,10 @@ date: 2025-12-20
 draft: false
 summary: "Für ein paar Tage erkundeten wir Bafang in den Bergen Westkameruns" 
 tags: []
+map:
+  show: true
+  location:
+     name: Cameroon-Bafang 
 ---
 
 Für ein Klassentreffen unserer Gastgeberin bot sich uns die Gelegenheit in den Heimatort Bafang in West Kamerun mitzukommen. Praktischerweise waren sowohl Unterkunft bei Familie als auch die Hinfahrt über eine Mitfahrgelegenheit bereits geregelt. Und so begann unsere 3-nächtige Exkursion.

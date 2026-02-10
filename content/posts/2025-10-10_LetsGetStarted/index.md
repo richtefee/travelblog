@@ -4,6 +4,11 @@ date: 2025-10-10
 draft: false
 summary: "Die Idee hinter diesem Blog und unsere ersten zaghaften Reiseschritte."
 tags: []
+map:
+  show: true
+  location:
+    lat: 47.7682
+    lon: 9.1734
 ---
 
 ## Wie alles begann

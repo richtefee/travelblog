@@ -7,6 +7,11 @@ summary: "Forschungsstation geschlossen, Natur geöffnet. Allez-hop!"
 tags: []
 series: ["Dja National Reserve"]
 series_order: 2
+map:
+  show: true
+  location:
+    lat: 3.190736
+    lon: 12.812711
 ---
 ## Tag 1: Langer Marsch in die Wildnis
 Wir schreiben den letzten Tag des Jahres 2025. Um 8 Uhr treffen wir unseren Guide vor unserer Herbgerge. Unser Ecoguard muss noch ein paar Einkäufe erledigen, also gehen wir schon einmal vor und warten am Ufer des Flusses Dja, der den Eingang zum Nationalpark markiert. Eine gute halbe Stunde später trudelt auch unser Ecoguard ein, jedoch ohne Machete. Unser Guide besteht darauf, dass er noch einmal umkehrt um diese zu holen, also weitere 15 Minuten warten, bevor unser gemeinsames Abenteuer gegen 9:00 bis 9:20 Uhr beginnt.
