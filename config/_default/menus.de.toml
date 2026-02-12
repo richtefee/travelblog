@@ -10,15 +10,15 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-# [[main]]
-#   name = "Map"
-#   pageRef = "map"
-#   weight = 10
-
 [[main]]
   name = "Blog"
   pageRef = "posts"
   weight = 10
+
+#[[main]]
+#  name = "Karte"
+#  pageRef = "map"
+#  weight = 15
 
 [[main]]
   name = "Länder"
@@ -30,6 +30,11 @@
   url = "/posts/cameroon/"
   weight = 20
 
+[[main]]
+  name = "Türkei"
+  parent = "Länder"
+  url = "/posts/turkey/"
+  weight = 20
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"

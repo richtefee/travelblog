@@ -4,7 +4,7 @@ showTableOfContents: true
 date: 2025-12-12
 draft: false
 summary: "Persönliches Portrait der Hauptstadt Kameruns"
-tags:
+tags: ["Stadt"]
 ---
 
 ## Kleine Welt

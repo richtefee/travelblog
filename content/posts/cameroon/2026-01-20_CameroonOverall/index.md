@@ -3,7 +3,7 @@ title: "Zeit für Reflexion"
 showTableOfContents: true
 date: 2026-01-20
 draft: false
-summary: "Erzählenswertes, was keinen eignen Blog bekommen hat."
+summary: "Erzählenswertes, das keinen Einzug in die bisherigen Blogposts gefunden hat."
 tags: ["Reflexion"]
 ---
 
