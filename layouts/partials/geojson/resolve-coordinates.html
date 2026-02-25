@@ -1,0 +1,31 @@
+{{- /* resolve coordinates */ -}}
+{{- $location := . -}}
+{{- $places := site.Data.geo.places -}}
+
+{{- $lat := 0 -}}
+{{- $lon := 0 -}}
+
+{{- /* Case 1: both lat and lon are defined in front matter */ -}}
+{{- if and $location.lat $location.lon -}}
+    {{- $lat = $location.lat -}}
+    {{- $lon = $location.lon -}}
+
+{{- /* Case 2: only one of lat/lon is defined → error */ -}}
+{{- else if or $location.lat $location.lon -}}
+    {{- errorf "Incomplete coordinates: both 'lat' and 'lon' must be defined if one is set" -}}
+
+{{- /* Case 3: neither lat/lon → try name lookup */ -}}
+{{- else if $location.name -}}
+    {{- with index $places $location.name -}}
+        {{- $lat = .lat -}}
+        {{- $lon = .lon -}}
+    {{- else -}}
+        {{- errorf "Unknown location name: '%s' not found in data/geo/places.yaml" $location.name -}}
+    {{- end -}}
+
+{{- /* Case 4: neither lat/lon nor name → error */ -}}
+{{- else -}}
+    {{- errorf "Missing location: either provide 'lat'/'lon' or 'name'" -}}
+{{- end -}}
+
+{{- return (dict "lat" $lat "lon" $lon) -}}

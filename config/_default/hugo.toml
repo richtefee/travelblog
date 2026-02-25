@@ -37,8 +37,17 @@ timeout = "20m"
   filename = 'sitemap.xml'
   priority = 0.5
 
+[mediaTypes."application/geo+json"]
+  suffixes = ["geojson"]
+
+[outputFormats.geojson]
+  mediaType = "application/geo+json"
+  isPlainText=true
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "GEOJSON"]
+  section = ["HTML", "RSS", "GEOJSON"]
+  page = ["HTML", "RSS", "GEOJSON"]
 
 [related]
   threshold = 0

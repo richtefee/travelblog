@@ -1,0 +1,3 @@
+{{- if .Params.map.show -}}
+{{ partial "geojson/article.html" . }}
+{{- end -}}

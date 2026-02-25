@@ -1,0 +1,18 @@
+{{- $pages := cond (eq .Kind "home")
+    .Site.Home.Site.RegularPages
+    .RegularPagesRecursive
+-}}
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {{- $first := true -}}
+    {{- range $pages -}}
+      {{- if and .Params.map (eq .Params.map.show true) -}}
+        {{- if not $first }},{{ end }}
+        {{ partial "geojson/article.html" . }}
+        {{- $first = false -}}
+      {{- end -}}
+    {{- end -}}
+  ]
+}

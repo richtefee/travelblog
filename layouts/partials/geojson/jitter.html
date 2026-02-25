@@ -1,0 +1,33 @@
+{{- $lat := .lat -}}
+{{- $lon := .lon -}}
+{{- $meters := .meters | default 100 -}}
+
+{{- /* numeric deterministic hash (NO hex parsing) */ -}}
+{{- $h := hash.FNV32a (printf "%.7f:%.7f" $lat $lon) -}}
+
+{{- /* split hash into two pseudo-random components */ -}}
+{{- $n1 := mod $h 1000000 -}}
+{{- $n2 := mod (div $h 1000000) 1000000 -}}
+
+{{- /* normalize to range [-1, 1] */ -}}
+{{- $r1 := sub (mul (div (float $n1) 500000) 2) 1 -}}
+{{- $r2 := sub (mul (div (float $n2) 500000) 2) 1 -}}
+
+{{- /* meters → degrees */ -}}
+{{- $degLat := div $meters 111000 -}}
+
+{{- /* latitude in radians */ -}}
+{{- $latRad := mul $lat 0.017453292519943295 -}}
+
+{{- /* longitude scaling (safe at all real latitudes) */ -}}
+{{- $cosLat := math.Cos $latRad -}}
+{{- if lt (math.Abs $cosLat) 0.01 -}}
+  {{- $cosLat = 0.01 -}}
+{{- end -}}
+{{- $degLon := div $meters (mul 111000 $cosLat) -}}
+
+{{- /* apply offsets */ -}}
+{{- $lat = add $lat (mul $r1 $degLat) -}}
+{{- $lon = add $lon (mul $r2 $degLon) -}}
+
+{{- return (dict "lat" $lat "lon" $lon) -}}

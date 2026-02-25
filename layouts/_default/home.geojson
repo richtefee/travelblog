@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {{- $first := true -}}
+    {{- range .Site.Home.Site.RegularPages -}}
+      {{- if and .Params.map (eq .Params.map.show true) -}}
+        {{- if not $first }},{{ end }}
+        {{ partial "geojson/article.html" . }}
+        {{- $first = false -}}
+      {{- end -}}
+    {{- end -}}
+  ]
+}
