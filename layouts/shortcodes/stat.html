@@ -1,0 +1,9 @@
+{{/* push data into scratch */}}
+{{ $list := .Page.Scratch.Get "stats" | default (slice) }}
+
+{{ $list = $list | append (dict
+  "number" (.Get "number")
+  "label"  (.Get "label")
+) }}
+
+{{ .Page.Scratch.Set "stats" $list }}

@@ -1,0 +1,47 @@
+{{ .Inner }} {{/* required for paired shortcode */}}
+
+{{ $colors := slice
+  "neutral-500"
+  "primary-500"
+  "secondary-500"
+}}
+
+{{ $items := .Page.Scratch.Get "stats" | default (slice) }}
+
+<div class="py-6">
+  <div class="flex flex-col sm:flex-row gap-3">
+
+    {{ range $i, $item := $items }}
+
+      <div
+        class="flex-1 w-full py-3 px-2 rounded-md text-white flex items-center justify-center"
+        style="background-color: rgb(var(--color-{{ index $colors $i }}));"
+      >
+        <div class="flex items-end gap-1">
+
+          <div class="flex-shrink-0">
+            <span
+              class="font-bold"
+              style="font-size: 3rem; line-height: 0.8; display: block;"
+            >
+              {{ $item.number }}
+            </span>
+          </div>
+
+          <div style="max-width: 80px">
+            <span
+              class="font-bold uppercase break-words"
+              style="font-size: 0.75rem; line-height: 1; display: block;"
+            >
+              {{ $item.label }}
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+    {{ end }}
+
+  </div>
+</div>
+{{ .Page.Scratch.Delete "stats" }}
