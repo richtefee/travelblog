@@ -5,6 +5,10 @@ date: 2025-11-08
 draft: false
 summary: "Ein paar Eindrucke von der Wohnung und ihre Ausstattung."
 tags: []
+map:
+  show: true
+  location:
+     name: Cameroon-Yaounde-Home 
 ---
 
 Wir sind mit die ersten, die zu zweit bei der kamerunischen Sandrine unterzukommen. Bis vor einem knappen Jahr, waren die drei Kinder so liebenswürdig ihr Zimmer mit _Volunteers_ zu teilen. Diesmal, zu zweit, wäre das allrdings schwierig geworden. Doch da unsere Hostfamilie umgezogen ist, gibt es ein freies Zimmer für uns beide. Zusammen mit einem Cousin, der aktuell für längere Zeit auch hier wohnt, leben wir also zu acht in der neuen 3-Zimmer Wohnung.

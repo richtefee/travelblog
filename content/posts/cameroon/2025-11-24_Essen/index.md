@@ -5,6 +5,10 @@ date: 2025-11-24
 draft: false
 summary: "Jetzt geht's ums Eingemachte: Was wir hier essen!"
 tags: ["Essen"]
+map:
+  show: true
+  location:
+     name: Cameroon-Yaounde-Home 
 ---
 
 {{< video src="Koki/Koki_all.webm"  center="true" autoplay="true" loop="true" width=100% >}}

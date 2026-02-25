@@ -5,6 +5,10 @@ date: 2025-12-27
 draft: false
 summary: "Weihnachten bedeutet Tradition, wie sehen diese also hier aus?" 
 tags: []
+map:
+  show: true
+  location:
+     name: Cameroon-Yaounde-Home 
 ---
 {{< video src="Videos/Schule.webm" poster="Videos/Schule.jpg" autoplay="false" loop="false" width="100%" controls="true" caption="Weihnachtsfeiern sowohl in der Schule als auch mit der Familie bestehen zu gutem Teil aus Tanzen.">}}
 

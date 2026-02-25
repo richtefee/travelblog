@@ -5,6 +5,11 @@ date: 2025-10-25
 draft: false
 summary: "Wie wir die Arbeit von HoH vor Ort erleben und begleiten."
 tags: []
+map:
+  show: true
+  privacy: false
+  location:
+    name: Cameroon-Mfou 
 ---
 
 In [Süden statt Osten]({{< relref "posts/cameroon/2025-10-18_SouthBySurprise" >}}) war die Rede vom Verein [Hand on Heart (HoH)](https://handonheartcameroon.com), der uns nach Kamerun verschlagen hat. Aber worum handelt es sich dabei eigentlich und was haben wir damit zu tun?

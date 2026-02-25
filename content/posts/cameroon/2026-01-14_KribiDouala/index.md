@@ -1,10 +1,15 @@
-------
+---
 title: "Die KaRIBIk Kameruns"
 showTableOfContents: true
 date: 2026-01-14
 draft: false
 summary: "Strand soweit das Auge reicht; Hitze und Moskitos im Überfluss." 
 tags: ["Stadt"]
+map:
+  show: true
+  privacy: false
+  location:
+    name: Cameroon-Kribi
 ---
 
 ## Ab ans Meer

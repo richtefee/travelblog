@@ -7,8 +7,7 @@ tags: []
 map:
   show: true
   location:
-    lat: 47.7682
-    lon: 9.1734
+    name: Germany-Überlingen
 ---
 
 ## Wie alles begann
@@ -31,15 +30,3 @@ Am kommenden Mittag nahemn wir einen Flixbus und durchquerten **Luxemburg** um n
 ![Felix und Sandrine mit ersten Cousurfing Hosts](CouchersHosts.JPG "Unser kurzer Zwischenhalt in Brüssel wurde von Barbara und Boon ermöglicht, die uns warmherzig in ihrer Wohnung Willkommen hießen.")
 
 Unsere Reise ist somit gestartet und wir sind auf dem Weg nach Osten... naja fast!
-
-<!--
-{{< openstreetmap
-    mapName="demo-map_1"
-    scale="8"
-    coordX="3.9"
-    coordY="11.5"
-    mapWidth="800px"
-    mapHeight="500px"
-    class="my-map"
->}}
--->

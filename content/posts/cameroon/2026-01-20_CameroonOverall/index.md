@@ -5,6 +5,11 @@ date: 2026-01-20
 draft: false
 summary: "Erzählenswertes, das keinen Einzug in die bisherigen Blogposts gefunden hat."
 tags: ["Reflexion"]
+map:
+  show: true
+  privacy: false
+  location:
+     name: Cameroon-Yaounde-Party
 ---
 
 Insgesamt war unser Aufenthalt in Kamerun eine intensive Erfahrung, die man erst einmal verarbeiten und sacken lassen muss. Diesem Post widmen wir deshalb den Raum, um übergreifend über unsere Zeit hier zu reflektieren und Eindrücke und Erfahrungen zu teilen, die in den bisherigen Berichten noch keine Erwähnung fanden.

@@ -5,6 +5,10 @@ date: 2025-12-05
 draft: false
 summary: "Einblicke in unsere indirekte Interaktion mit dem kamerunischen Gesundheitssystem"
 tags: ["Gesundheit"]
+map:
+  show: true
+  location:
+     name: Cameroon-Yaounde-Home 
 ---
 
 ## Mücke mit Tücke

@@ -5,6 +5,10 @@ date: 2025-12-12
 draft: false
 summary: "Persönliches Portrait der Hauptstadt Kameruns"
 tags: ["Stadt"]
+map:
+  show: true
+  location:
+     name: Cameroon-Yaounde-Home 
 ---
 
 ## Kleine Welt

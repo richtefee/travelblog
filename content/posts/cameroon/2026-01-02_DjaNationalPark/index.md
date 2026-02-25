@@ -9,6 +9,7 @@ series: ["Dja National Reserve"]
 series_order: 2
 map:
   show: true
+  privacy: false
   location:
     lat: 3.190736
     lon: 12.812711

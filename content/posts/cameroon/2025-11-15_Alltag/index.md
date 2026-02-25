@@ -5,6 +5,10 @@ date: 2025-11-15
 draft: false
 summary: "Unser typischer Tagesverlauf \"zu Hause\"."
 tags: []
+map:
+  show: true
+  location:
+     name: Cameroon-Yaounde-Home 
 ---
 
 ## Ausschlafen? Von wegen!
