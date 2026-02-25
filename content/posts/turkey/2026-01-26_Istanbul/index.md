@@ -4,6 +4,11 @@ date: 2026-01-26
 draft: false
 summary: "Wie unsere Ankunft in Istanbul uns in Entzücken versetzt."
 tags: ["Essen","Stadt"]
+map:
+  show: true
+  privacy: false
+  location:
+    name: Turkey-Istanbul 
 ---
 
 Wow, ist das ein mächtiges Gefühl, nach drei Monaten Kamerun hier zu landen. Es ist schwer zu sagen, ob unser Staunen allein der Stadt selbst oder dem starken Kontrast zu unseren vorherigen Erfahrungen entspringt. Schon beim Zwischenstopp am Flughafen in Algier fühlte sich der Anblick von Mülleimern (sogar mit Mülltrennung!) wie eine Wohltat an. Wir hatten einen regelrechten „Ordnungs-Flash“: Wie sauber die Fliesen verlegt waren, wie strukturiert alles wirkte! In Istanbul angekommen, verstärkte sich dieses Gefühl nur noch. Der Flughafen war beeindruckend schick, überall gab es grüne Sitz-, Arbeits- und Wohlfühlecken.

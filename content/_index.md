@@ -1,5 +1,14 @@
-Hier werden wir unsere Reise in Text und Bild festhalten. Dafür müssen wir selbst noch einiges lernen, doch Ziel ist es, diesen Blog nach und nach in einem guten Rythmus zu füllen,
-In diesem Sinne findet ihr direkt schon unsere ersten Reiseberichte. Viel Spaß beim Lesen!
+Wir, Sandrine und Felix, sind gerade auf unserer zweiten Weltreise. Dieses Mal möchten wir unsere Erlebnisse direkt mit euch teilen, und gleichzeitig für uns selbst eine schöne Erinnerung schaffen. Deshalb halten wir unsere Reise in Text und Bild fest.
 
-<!--{{< article link="/posts/2025-10-18_southbysurprise/" showSummary=true compactSummary=true >}}-->
+__Viel Spaß beim Lesen!__
 
+{{< accordion mode="open" separated=true >}}
+  {{< accordionItem title="Abo-Feed" open=false  icon="envelope">}}
+  Wenn ihr direkt sehen wollt sobald wir neue Beiträge veröffentlichen, könnt ihr uns einfach __abonieren__. Dafür einfach oben auf den Messenger eurer Wahl klicken.👆
+  {{< /accordionItem >}}
+  {{< accordionItem title="Neuster Shit" open=false icon="poo" align="left">}}
+  - [Kamerun-Übersicht]({{< relref "posts/cameroon" >}})
+  - [Übersichtskarte unserer Reise]({{< relref "map" >}})
+  - Abo Optionen: Whatsapp & Telegram 👆
+  {{< /accordionItem >}}
+{{< /accordion >}}
