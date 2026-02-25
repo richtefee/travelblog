@@ -1,0 +1,15 @@
+{
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Was wir in Kamerun machen",
+    "url": "/posts/cameroon/2025-10-25_whatwedoincameroon/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.642085716574554,
+      3.720352461870177
+    ]
+  }
+}

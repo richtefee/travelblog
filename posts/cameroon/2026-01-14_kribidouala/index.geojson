@@ -1,0 +1,15 @@
+{
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Die KaRIBIk Kameruns",
+    "url": "/posts/cameroon/2026-01-14_kribidouala/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.912259,
+      2.945235
+    ]
+  }
+}

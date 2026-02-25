@@ -1,0 +1,318 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": [
+          "Lausanne, Switzerland",
+          "Deisendorf (Überlingen), Germany",
+          "Mannheim, Germany",
+          "Brussels (Brüssel), Belgium"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [6.6323, 46.5197],
+          [9.1756, 47.7724],
+          [8.4636, 49.4875],
+          [4.3517, 50.8503]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "geodesic",
+        "group": "route",
+        "cities": ["Brussels (Brüssel), Belgium", "Casablanca, Morocco"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [4.3517, 50.8503],
+          [-7.5898, 33.5731]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "geodesic",
+        "group": "route",
+        "cities": ["Casablanca, Morocco", "Douala, Cameroon"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-7.5898, 33.5731],
+          [9.7679, 4.0511]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": ["Douala, Cameroon", "Yaoundé, Cameroon"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.7679, 4.0511],
+          [11.5021, 3.8480]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": ["Yaoundé, Cameroon", "Bafang, Cameroon"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.5021, 3.8480],
+          [10.1786, 5.1563]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": ["Yaoundé, Cameroon", "Somalomo, Cameroon"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.5021, 3.8480],
+          [12.7343, 3.3811]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": [
+          "Somalomo, Cameroon",
+          "Bengbis, Cameroon",
+          "Sangmelima, Cameroon",
+          "Ebolowa, Cameroon",
+          "Akom II, Cameroon",
+          "Kribi, Cameroon"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [12.7343, 3.3811],
+          [12.4467, 3.4394],
+          [11.9833, 2.9333],
+          [11.1525, 2.9331],
+          [10.5667, 2.7833],
+          [9.9077, 2.9373]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": ["Kribi, Cameroon", "Douala, Cameroon"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.9100, 2.9499],
+          [9.7679, 4.0511]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "geodesic",
+        "group": "route",
+        "cities": ["Douala, Cameroon", "Algiers, Algeria"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [9.7679, 4.0511],
+          [3.0588, 36.7538]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "geodesic",
+        "group": "route",
+        "cities": ["Algiers, Algeria", "Istanbul, Turkey"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [3.0588, 36.7538],
+          [28.9784, 41.0082]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": ["Istanbul, Turkey", "Izmir, Turkey"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [28.9784, 41.0082],
+          [27.1428, 38.4237]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Lausanne, Switzerland"
+      },
+      "geometry": { "type": "Point", "coordinates": [6.6323, 46.5197] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Deisendorf (Überlingen), Germany"
+      },
+      "geometry": { "type": "Point", "coordinates": [9.1756, 47.7724] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Mannheim, Germany"
+      },
+      "geometry": { "type": "Point", "coordinates": [8.4636, 49.4875] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Brussels (Brüssel), Belgium"
+      },
+      "geometry": { "type": "Point", "coordinates": [4.3517, 50.8503] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Douala, Cameroon"
+      },
+      "geometry": { "type": "Point", "coordinates": [9.7679, 4.0511] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Yaoundé, Cameroon"
+      },
+      "geometry": { "type": "Point", "coordinates": [11.5021, 3.8480] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Bafang, Cameroon"
+      },
+      "geometry": { "type": "Point", "coordinates": [10.1786, 5.1563] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Somalomo, Cameroon"
+      },
+      "geometry": { "type": "Point", "coordinates": [12.7343, 3.3811] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Ebolowa, Cameroon"
+      },
+      "geometry": { "type": "Point", "coordinates": [11.1525, 2.9331] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Kribi, Cameroon"
+      },
+      "geometry": { "type": "Point", "coordinates": [9.9100, 2.9499] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Istanbul, Turkey"
+      },
+      "geometry": { "type": "Point", "coordinates": [28.9784, 41.0082] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "stop",
+        "group": "stop",
+        "city": "Izmir, Turkey"
+      },
+      "geometry": { "type": "Point", "coordinates": [27.1428, 38.4237] }
+    }
+  ]
+}

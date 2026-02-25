@@ -1,0 +1,15 @@
+{
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Fröhliche Weihnacht überall",
+    "url": "/posts/cameroon/2025-12-26_weihnachten/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.562445395544303,
+      3.8653577465884204
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Reise in eine andere Welt",
+    "url": "/posts/turkey/2026-01-26_istanbul/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      28.977545,
+      41.036767
+    ]
+  }
+}
+]
+}

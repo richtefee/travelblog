@@ -1,0 +1,260 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Reise in eine andere Welt",
+    "url": "/posts/turkey/2026-01-26_istanbul/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      28.977545,
+      41.036767
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Zeit für Reflexion",
+    "url": "/posts/cameroon/2026-01-20_cameroonoverall/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.48071391964691,
+      3.8297988776290697
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Die KaRIBIk Kameruns",
+    "url": "/posts/cameroon/2026-01-14_kribidouala/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.912259,
+      2.945235
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Odyssee nach Kribi",
+    "url": "/posts/cameroon/2026-01-05_odyseekribi/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.149423,
+      2.902335
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Jahreswechsel im Dja Nationalpark",
+    "url": "/posts/cameroon/2026-01-02_djanationalpark/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.812711,
+      3.190736
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Auf nach Somalomo!",
+    "url": "/posts/cameroon/2025-12-29_somalomo/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.732698,
+      3.381339
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Fröhliche Weihnacht überall",
+    "url": "/posts/cameroon/2025-12-26_weihnachten/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.562445395544303,
+      3.8653577465884204
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Kurztripp nach Bafang",
+    "url": "/posts/cameroon/2025-12-20_bafang/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.187199069147393,
+      5.161997473467246
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Ach wie schön ist Yaoundé",
+    "url": "/posts/cameroon/2025-12-12_yaounde/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.562445395544303,
+      3.8653577465884204
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Malaria Mia",
+    "url": "/posts/cameroon/2025-12-05_malariamia/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.562445395544303,
+      3.8653577465884204
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Unsere täglich Kochbananen",
+    "url": "/posts/cameroon/2025-11-24_essen/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.562445395544303,
+      3.8653577465884204
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Unser Alltag zu Hause",
+    "url": "/posts/cameroon/2025-11-15_alltag/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.562445395544303,
+      3.8653577465884204
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Wie wir hier wohnen",
+    "url": "/posts/cameroon/2025-11-08_launischeversorgung/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.562445395544303,
+      3.8653577465884204
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Was wir in Kamerun machen",
+    "url": "/posts/cameroon/2025-10-25_whatwedoincameroon/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.642085716574554,
+      3.720352461870177
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Süden statt Osten",
+    "url": "/posts/cameroon/2025-10-18_southbysurprise/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.717232604049611,
+      4.013085409075031
+    ]
+  }
+}
+,
+        {
+  "type": "Feature",
+  "properties": {
+    "kind": "article",
+    "title": "Jetzt geht's los",
+    "url": "/posts/2025-10-10_letsgetstarted/"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.161711379800488,
+      47.768962
+    ]
+  }
+}
+]
+}
