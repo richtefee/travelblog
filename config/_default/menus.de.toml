@@ -11,14 +11,14 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "Route"
+  pageRef = "map"
+  weight = 15
+
+[[main]]
+  name = "Artikel"
   pageRef = "posts"
   weight = 10
-
-#[[main]]
-#  name = "Karte"
-#  pageRef = "map"
-#  weight = 15
 
 [[main]]
   name = "Länder"
