@@ -1,0 +1,38 @@
+{{/* ===============================
+   Parameters
+================================ */}}
+
+{{ $data := .Get "data" | default "index" }}
+{{ $lat  := .Get "lat"  | default "0" }}
+{{ $lon  := .Get "lon"  | default "0" }}
+{{ $zoom := .Get "zoom" | default "2" }}
+{{ $id := printf "map-%d" now.UnixNano }}
+
+<div
+  id="{{ $id }}"
+  class="map"
+  data-geojson="{{ printf "%s%s.geojson" .Page.RelPermalink $data }}"
+  data-lat="{{ $lat }}"
+  data-lon="{{ $lon }}"
+  data-zoom="{{ $zoom }}"
+></div>
+
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
+<script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+
+{{ $js := resources.Get "js/map/index.js" | js.Build }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
+<style>
+.map {
+  width: 100%;
+  height: 400px;
+  border-radius: 0.5rem;
+  visibility: hidden; /* hide until ready */
+}
+
+.map.is-ready {
+  visibility: visible;
+}
+</style>
