@@ -1,45 +1,71 @@
-Germany-Überlingen:
-    lat: 47.768962
-    lon: 9.163040
-Belgium-Brussels:
-    lat: 50.80126082304624
-    lon: 4.396910557727769
-Cameroon-Douala-Airport:
-    lat: 4.013085409075031
-    lon: 9.717232604049611
-Cameroon-Bafang:
-    lat: 5.161997473467246
-    lon: 10.18809800143955
-Cameroon-Mfou:
-    lat: 3.720352461870177
-    lon: 11.642085716574554
-Cameroon-Yaounde-Home:
-    lat: 3.8653577465884204
-    lon: 11.563346403698215
-Cameroon-Yaounde-Party:
-    lat: 3.8297988776290697
-    lon: 11.48071391964691
-Cameroon-Douala:
-    lat: 4.043770
-    lon: 9.711522
-Cameroon-Kribi:
-    lat: 2.945235
-    lon: 9.912259
-Cameroon-Somalomo:
-    lat: 3.381339
-    lon: 12.732698
-Cameroon-ReserveDja:
-    lat: 3.190736
-    lon: 12.812714
-Cameroon-Ebolowa:
-    lat: 2.902335
-    lon: 11.149423
-Turkey-Izmir:
-    lat: 38.420486
-    lon: 27.143424
-Turkey-Istanbul:
-    lat: 41.036767
-    lon: 28.977545
-Turkey-Geyikbayiri:
-    lat: 36.86667285399578
-    lon: 30.46397160269388
+Germany:
+  Überlingen:
+    Bahnhof:
+      lat: 47.768962
+      lon: 9.163040
+
+Belgium:
+  Brussels:
+    CS_Barbara:
+      lat: 50.80126082304624
+      lon: 4.396910557727769
+      jitter: true
+
+Cameroon:
+  Douala:
+    Airport:
+      lat: 4.013085409075031
+      lon: 9.717232604049611
+    Hotel:
+      lat: 4.043770
+      lon: 9.711522
+  Bafang:
+    Familie_Sandrine:
+      lat: 5.161997473467246
+      lon: 10.18809800143955
+      jitter: true
+  Mfou:
+    CSI:
+      lat: 3.720352461870177
+      lon: 11.642085716574554
+  Yaounde:
+    Home:
+      lat: 3.8653577465884204
+      lon: 11.563346403698215
+      jitter: true
+    Party:
+      lat: 3.8297988776290697
+      lon: 11.48071391964691
+  Kribi:
+    Auberge:
+      lat: 2.945235
+      lon: 9.912259
+  Somalomo:
+    Auberge:
+      lat: 3.381339
+      lon: 12.732698
+    ReserveDja:
+      lat: 3.190736
+      lon: 12.812714
+  Ebolowa:
+    Hotel:
+      lat: 2.902335
+      lon: 11.149423
+
+Turkey:
+  Izmir:
+    WA_Hostel:
+      lat: 38.420486
+      lon: 27.143424
+  Istanbul:
+    Hotel:
+      lat: 41.036767
+      lon: 28.977545
+  Geyikbayiri:
+    WA_Hotel:
+      lat: 36.86667285399578
+      lon: 30.46397160269388
+  Göreme:
+    WA_LPA:
+      lat: 38.642415
+      lon: 34.834447
