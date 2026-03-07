@@ -1,3 +1,5 @@
+{{- $rp := "geojson/resolve-place.html" -}}
+
 {
   "type": "FeatureCollection",
   "features": [
@@ -7,312 +9,187 @@
         "kind": "route",
         "style": "linear",
         "group": "route",
-        "cities": [
-          "Lausanne, Switzerland",
-          "Deisendorf (Überlingen), Germany",
-          "Mannheim, Germany",
-          "Brussels (Brüssel), Belgium"
-        ]
+        "cities": ["Lausanne", "Überlingen", "Mannheim", "Brussels"]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [6.6323, 46.5197],
-          [9.1756, 47.7724],
-          [8.4636, 49.4875],
-          [4.3517, 50.8503]
+          {{ partial $rp "Switzerland-Lausanne-Home" }},
+          {{ partial $rp "Germany-Überlingen-Bahnhof" }},
+          {{ partial $rp "Germany-Mannheim-Nick" }},
+          {{ partial $rp "Belgium-Brussels-CS_Barbara" }}
         ]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
         "kind": "route",
         "style": "geodesic",
         "group": "route",
-        "cities": ["Brussels (Brüssel), Belgium", "Casablanca, Morocco"]
+        "cities": ["Brussels, BE", "Casablanca, MA"]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [4.3517, 50.8503],
-          [-7.5898, 33.5731]
+          {{ partial $rp "Belgium-Brussels-CS_Barbara" }},
+          {{ partial $rp "Marocco-Casablanca-Airport" }}
         ]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
         "kind": "route",
         "style": "geodesic",
         "group": "route",
-        "cities": ["Casablanca, Morocco", "Douala, Cameroon"]
+        "cities": ["Casablanca, MA", "Douala, CM"]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-7.5898, 33.5731],
-          [9.7679, 4.0511]
+          {{ partial $rp "Marocco-Casablanca-Airport" }},
+          {{ partial $rp "Cameroon-Douala-Airport" }}
         ]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
         "kind": "route",
         "style": "linear",
         "group": "route",
-        "cities": ["Douala, Cameroon", "Yaoundé, Cameroon"]
+        "cities": ["Douala", "Yaoundé", "Somalomo", "Bengbis", "Sangmelima", "Ebolowa", "Akom II", "Kribi", "Douala"]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [9.7679, 4.0511],
-          [11.5021, 3.8480]
-        ]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "kind": "route",
-        "style": "linear",
-        "group": "route",
-        "cities": ["Yaoundé, Cameroon", "Bafang, Cameroon"]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [11.5021, 3.8480],
-          [10.1786, 5.1563]
-        ]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "kind": "route",
-        "style": "linear",
-        "group": "route",
-        "cities": ["Yaoundé, Cameroon", "Somalomo, Cameroon"]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [11.5021, 3.8480],
-          [12.7343, 3.3811]
-        ]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "kind": "route",
-        "style": "linear",
-        "group": "route",
-        "cities": [
-          "Somalomo, Cameroon",
-          "Bengbis, Cameroon",
-          "Sangmelima, Cameroon",
-          "Ebolowa, Cameroon",
-          "Akom II, Cameroon",
-          "Kribi, Cameroon"
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [12.7343, 3.3811],
+          {{ partial $rp "Cameroon-Douala-Airport" }},
+          {{ partial $rp "Cameroon-Yaounde-Home" }},
+          {{ partial $rp "Cameroon-Somalomo-Auberge" }},
           [12.4467, 3.4394],
           [11.9833, 2.9333],
-          [11.1525, 2.9331],
+          {{ partial $rp "Cameroon-Ebolowa-Hotel" }},
           [10.5667, 2.7833],
-          [9.9077, 2.9373]
+          {{ partial $rp "Cameroon-Kribi-Auberge" }},
+          {{ partial $rp "Cameroon-Douala-Airport" }}
         ]
       }
     },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "kind": "route",
-        "style": "linear",
-        "group": "route",
-        "cities": ["Kribi, Cameroon", "Douala, Cameroon"]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [9.9100, 2.9499],
-          [9.7679, 4.0511]
-        ]
-      }
-    },
-
     {
       "type": "Feature",
       "properties": {
         "kind": "route",
         "style": "geodesic",
         "group": "route",
-        "cities": ["Douala, Cameroon", "Algiers, Algeria"]
+        "cities": ["Douala, CM", "Algiers, DZ"]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [9.7679, 4.0511],
-          [3.0588, 36.7538]
+          {{ partial $rp "Cameroon-Douala-Airport" }},
+          {{ partial $rp "Algeria-Algier-Airport" }}
         ]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
         "kind": "route",
         "style": "geodesic",
         "group": "route",
-        "cities": ["Algiers, Algeria", "Istanbul, Turkey"]
+        "cities": ["Algiers, DZ", "Istanbul, TR"]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [3.0588, 36.7538],
-          [28.9784, 41.0082]
+          {{ partial $rp "Algeria-Algier-Airport" }},
+          {{ partial $rp "Turkey-Istanbul-Hotel" }}
         ]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
         "kind": "route",
         "style": "linear",
         "group": "route",
-        "cities": ["Istanbul, Turkey", "Izmir, Turkey"]
+        "cities": ["Istanbul, TR", "Izmir, TR", "Geyikbayiri, TR"]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [28.9784, 41.0082],
-          [27.1428, 38.4237]
+          {{ partial $rp "Turkey-Istanbul-Hotel" }},
+          {{ partial $rp "Turkey-Izmir-WA_Hostel" }},
+          {{ partial $rp "Turkey-Geyikbayiri-WA_Hotel" }}
         ]
       }
     },
-
+    {{- /* Individual Stops follow... */ -}}
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Lausanne, Switzerland"
-      },
-      "geometry": { "type": "Point", "coordinates": [6.6323, 46.5197] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Lausanne" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Switzerland-Lausanne-Home" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Deisendorf (Überlingen), Germany"
-      },
-      "geometry": { "type": "Point", "coordinates": [9.1756, 47.7724] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Überlingen" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Germany-Überlingen-Bahnhof" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Mannheim, Germany"
-      },
-      "geometry": { "type": "Point", "coordinates": [8.4636, 49.4875] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Mannheim" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Germany-Mannheim-Nick" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Brussels (Brüssel), Belgium"
-      },
-      "geometry": { "type": "Point", "coordinates": [4.3517, 50.8503] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Brussels" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Belgium-Brussels-CS_Barbara" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Douala, Cameroon"
-      },
-      "geometry": { "type": "Point", "coordinates": [9.7679, 4.0511] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Douala" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Douala-Airport" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Yaoundé, Cameroon"
-      },
-      "geometry": { "type": "Point", "coordinates": [11.5021, 3.8480] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Yaoundé" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Yaounde-Home" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Bafang, Cameroon"
-      },
-      "geometry": { "type": "Point", "coordinates": [10.1786, 5.1563] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Bafang" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Bafang-Familie_Sandrine" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Somalomo, Cameroon"
-      },
-      "geometry": { "type": "Point", "coordinates": [12.7343, 3.3811] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Somalomo" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Somalomo-Auberge" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Ebolowa, Cameroon"
-      },
-      "geometry": { "type": "Point", "coordinates": [11.1525, 2.9331] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Ebolowa" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Ebolowa-Hotel" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Kribi, Cameroon"
-      },
-      "geometry": { "type": "Point", "coordinates": [9.9100, 2.9499] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Kribi" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Kribi-Auberge" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Istanbul, Turkey"
-      },
-      "geometry": { "type": "Point", "coordinates": [28.9784, 41.0082] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Istanbul" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Istanbul-Hotel" }} }
     },
     {
       "type": "Feature",
-      "properties": {
-        "kind": "stop",
-        "group": "stop",
-        "city": "Izmir, Turkey"
-      },
-      "geometry": { "type": "Point", "coordinates": [27.1428, 38.4237] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Izmir" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Izmir-WA_Hostel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Geyikbayiri"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Geyikbayiri-WA_Hotel" }} }
     }
   ]
 }

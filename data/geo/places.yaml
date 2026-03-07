@@ -1,8 +1,20 @@
+Switzerland:
+  Lausanne:
+    Home:
+      lat: 46.52476259561158
+      lon: 6.624439688499363
+      jitter: true
+
 Germany:
   Überlingen:
     Bahnhof:
       lat: 47.768962
       lon: 9.163040
+  Mannheim:
+    Nick:
+      lat: 49.488559448998664
+      lon: 8.473277060783197
+      jitter: true
 
 Belgium:
   Brussels:
@@ -10,6 +22,11 @@ Belgium:
       lat: 50.80126082304624
       lon: 4.396910557727769
       jitter: true
+Marocco:
+  Casablanca:
+    Airport:
+      lat: 33.370378866408345
+      lon: -7.582874310554968
 
 Cameroon:
   Douala:
@@ -52,6 +69,11 @@ Cameroon:
       lat: 2.902335
       lon: 11.149423
 
+Algeria:
+  Algier:
+    Airport:
+      lat: 36.69936975117026
+      lon: 3.210954100450468
 Turkey:
   Izmir:
     WA_Hostel:
