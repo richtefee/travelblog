@@ -1,15 +1,12 @@
 {
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": "Jetzt geht's los",
-    "url": "/posts/2025-10-10_letsgetstarted/"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.161711379800488,
-      47.768962
-    ]
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Jetzt geht's los",
+      "url": "/posts/2025-10-10_letsgetstarted/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [null,null]
+    }
   }
-}

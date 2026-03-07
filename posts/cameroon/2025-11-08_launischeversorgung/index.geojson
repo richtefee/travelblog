@@ -1,15 +1,12 @@
 {
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": "Wie wir hier wohnen",
-    "url": "/posts/cameroon/2025-11-08_launischeversorgung/"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      11.562445395544303,
-      3.8653577465884204
-    ]
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Wie wir hier wohnen",
+      "url": "/posts/cameroon/2025-11-08_launischeversorgung/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [11.562445395544303,3.8653577465884204]
+    }
   }
-}

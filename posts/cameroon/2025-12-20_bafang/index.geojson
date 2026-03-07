@@ -1,15 +1,12 @@
 {
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": "Kurztripp nach Bafang",
-    "url": "/posts/cameroon/2025-12-20_bafang/"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.187199069147393,
-      5.161997473467246
-    ]
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Kurztripp nach Bafang",
+      "url": "/posts/cameroon/2025-12-20_bafang/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [10.187199069147393,5.161997473467246]
+    }
   }
-}

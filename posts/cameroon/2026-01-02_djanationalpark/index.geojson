@@ -1,15 +1,12 @@
 {
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": "Jahreswechsel im Dja Nationalpark",
-    "url": "/posts/cameroon/2026-01-02_djanationalpark/"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      12.812711,
-      3.190736
-    ]
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Jahreswechsel im Dja Nationalpark",
+      "url": "/posts/cameroon/2026-01-02_djanationalpark/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.812714,3.190736]
+    }
   }
-}

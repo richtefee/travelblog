@@ -1,15 +1,12 @@
 {
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": "Zeit für Reflexion",
-    "url": "/posts/cameroon/2026-01-20_cameroonoverall/"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      11.48071391964691,
-      3.8297988776290697
-    ]
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Zeit für Reflexion",
+      "url": "/posts/cameroon/2026-01-20_cameroonoverall/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [11.48071391964691,3.8297988776290697]
+    }
   }
-}

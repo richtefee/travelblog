@@ -1,15 +1,12 @@
 {
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": "Izmir egal ...",
-    "url": "/posts/turkey/2026-02-05_izmir/"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      27.143424,
-      38.420486
-    ]
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Izmir egal ...",
+      "url": "/posts/turkey/2026-02-05_izmir/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [27.143424,38.420486]
+    }
   }
-}

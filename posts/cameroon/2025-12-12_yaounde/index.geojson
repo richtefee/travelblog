@@ -1,15 +1,12 @@
 {
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": "Ach wie schön ist Yaoundé",
-    "url": "/posts/cameroon/2025-12-12_yaounde/"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      11.562445395544303,
-      3.8653577465884204
-    ]
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Ach wie schön ist Yaoundé",
+      "url": "/posts/cameroon/2025-12-12_yaounde/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [11.562445395544303,3.8653577465884204]
+    }
   }
-}

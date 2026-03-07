@@ -1,5 +1,3 @@
-{{- $rp := "geojson/resolve-place.html" -}}
-
 {
   "type": "FeatureCollection",
   "features": [
@@ -14,10 +12,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          {{ partial $rp "Switzerland-Lausanne-Home" }},
-          {{ partial $rp "Germany-Überlingen-Bahnhof" }},
-          {{ partial $rp "Germany-Mannheim-Nick" }},
-          {{ partial $rp "Belgium-Brussels-CS_Barbara" }}
+          [6.623149732921227,46.52476259561158],
+          [9.16304,47.768962],
+          [8.471907330556736,49.488559448998664],
+          [4.39550218041788,50.80126082304624]
         ]
       }
     },
@@ -32,8 +30,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          {{ partial $rp "Belgium-Brussels-CS_Barbara" }},
-          {{ partial $rp "Marocco-Casablanca-Airport" }}
+          [4.39550218041788,50.80126082304624],
+          [-7.582874310554968,33.370378866408345]
         ]
       }
     },
@@ -48,8 +46,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          {{ partial $rp "Marocco-Casablanca-Airport" }},
-          {{ partial $rp "Cameroon-Douala-Airport" }}
+          [-7.582874310554968,33.370378866408345],
+          [9.717232604049611,4.013085409075031]
         ]
       }
     },
@@ -64,15 +62,15 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          {{ partial $rp "Cameroon-Douala-Airport" }},
-          {{ partial $rp "Cameroon-Yaounde-Home" }},
-          {{ partial $rp "Cameroon-Somalomo-Auberge" }},
+          [9.717232604049611,4.013085409075031],
+          [11.562445395544303,3.8653577465884204],
+          [12.732698,3.381339],
           [12.4467, 3.4394],
           [11.9833, 2.9333],
-          {{ partial $rp "Cameroon-Ebolowa-Hotel" }},
+          [11.149423,2.902335],
           [10.5667, 2.7833],
-          {{ partial $rp "Cameroon-Kribi-Auberge" }},
-          {{ partial $rp "Cameroon-Douala-Airport" }}
+          [9.912259,2.945235],
+          [9.717232604049611,4.013085409075031]
         ]
       }
     },
@@ -87,8 +85,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          {{ partial $rp "Cameroon-Douala-Airport" }},
-          {{ partial $rp "Algeria-Algier-Airport" }}
+          [9.717232604049611,4.013085409075031],
+          [3.210954100450468,36.69936975117026]
         ]
       }
     },
@@ -103,8 +101,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          {{ partial $rp "Algeria-Algier-Airport" }},
-          {{ partial $rp "Turkey-Istanbul-Hotel" }}
+          [3.210954100450468,36.69936975117026],
+          [28.977545,41.036767]
         ]
       }
     },
@@ -119,77 +117,75 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          {{ partial $rp "Turkey-Istanbul-Hotel" }},
-          {{ partial $rp "Turkey-Izmir-WA_Hostel" }},
-          {{ partial $rp "Turkey-Geyikbayiri-WA_Hotel" }}
+          [28.977545,41.036767],
+          [27.143424,38.420486],
+          [30.46397160269388,36.86667285399578]
         ]
       }
-    },
-    {{- /* Individual Stops follow... */ -}}
-    {
+    },{
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Lausanne" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Switzerland-Lausanne-Home" }} }
+      "geometry": { "type": "Point", "coordinates": [6.623149732921227,46.52476259561158] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Überlingen" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Germany-Überlingen-Bahnhof" }} }
+      "geometry": { "type": "Point", "coordinates": [9.16304,47.768962] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Mannheim" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Germany-Mannheim-Nick" }} }
+      "geometry": { "type": "Point", "coordinates": [8.471907330556736,49.488559448998664] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Brussels" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Belgium-Brussels-CS_Barbara" }} }
+      "geometry": { "type": "Point", "coordinates": [4.39550218041788,50.80126082304624] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Douala" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Douala-Airport" }} }
+      "geometry": { "type": "Point", "coordinates": [9.717232604049611,4.013085409075031] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Yaoundé" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Yaounde-Home" }} }
+      "geometry": { "type": "Point", "coordinates": [11.562445395544303,3.8653577465884204] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Bafang" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Bafang-Familie_Sandrine" }} }
+      "geometry": { "type": "Point", "coordinates": [10.187199069147393,5.161997473467246] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Somalomo" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Somalomo-Auberge" }} }
+      "geometry": { "type": "Point", "coordinates": [12.732698,3.381339] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Ebolowa" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Ebolowa-Hotel" }} }
+      "geometry": { "type": "Point", "coordinates": [11.149423,2.902335] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Kribi" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Cameroon-Kribi-Auberge" }} }
+      "geometry": { "type": "Point", "coordinates": [9.912259,2.945235] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Istanbul" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Istanbul-Hotel" }} }
+      "geometry": { "type": "Point", "coordinates": [28.977545,41.036767] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Izmir" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Izmir-WA_Hostel" }} }
+      "geometry": { "type": "Point", "coordinates": [27.143424,38.420486] }
     },
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Geyikbayiri"},
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Geyikbayiri-WA_Hotel" }} }
+      "geometry": { "type": "Point", "coordinates": [30.46397160269388,36.86667285399578] }
     }
   ]
 }

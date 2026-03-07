@@ -1,15 +1,12 @@
 {
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": "Süden statt Osten",
-    "url": "/posts/cameroon/2025-10-18_southbysurprise/"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.717232604049611,
-      4.013085409075031
-    ]
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Süden statt Osten",
+      "url": "/posts/cameroon/2025-10-18_southbysurprise/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [9.717232604049611,4.013085409075031]
+    }
   }
-}
