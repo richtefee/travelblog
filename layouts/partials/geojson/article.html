@@ -1,27 +1,15 @@
-{{- $p := . -}}
-
-{{- /* 1. resolve exact coordinates (private) */ -}}
-{{- $coords := partial "geojson/resolve-coordinates.html" $p.Params.map.location -}}
-
-{{- /* 2. apply privacy jitter if requested */ -}}
-{{- $privacy := cond (isset $p.Params.map "privacy") $p.Params.map.privacy true -}}
-{{- if $privacy -}}
-  {{- $meters := cond (eq $privacy true) 100 $privacy -}}
-  {{- $coords = partial "geojson/jitter.html" (merge $coords (dict "meters" $meters)) -}}
-{{- end -}}
-
-{
-  "type": "Feature",
-  "properties": {
-    "kind": "article",
-    "title": {{ $p.Title | jsonify }},
-    "url": {{ $p.RelPermalink | jsonify }}
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      {{ $coords.lon }},
-      {{ $coords.lat }}
-    ]
+{{- if .Params.map.show -}}
+  {{- $locationKey := .Params.map.location.name -}}
+  {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": {{ .Title | jsonify }},
+      "url": {{ .RelPermalink | jsonify }}
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": {{ partial "geojson/resolve-place.html" $locationKey | safeJS }}
+    }
   }
-}
+{{- end -}}

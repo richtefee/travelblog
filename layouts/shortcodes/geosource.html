@@ -1,0 +1,12 @@
+{{- $dataName := .Get "data" | default "index" -}}
+
+{{- if eq $dataName "index" -}}
+    {{- .Parent.Scratch.Set "geojson_url" (.Page.OutputFormats.Get "geojson").RelPermalink -}}
+{{- else -}}
+    {{- $file := .Page.Resources.GetMatch (printf "%s.geojson" $dataName) -}}
+    {{- if $file -}}
+        {{- $targetPath := printf "%s%s.json" .Page.RelPermalink $dataName -}}
+        {{- $published := $file | resources.ExecuteAsTemplate $targetPath .Page -}}
+        {{- .Parent.Scratch.Set "geojson_url" $published.RelPermalink -}}
+    {{- end -}}
+{{- end -}}

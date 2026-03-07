@@ -3,13 +3,9 @@ title: "Kamerun"
 ---
 
 
-{{< map
-    lat="7.25"
-    lon="12"
-    zoom="4.5"
-    data="index"
->}}
-
+{{< map lat="7.25" lon="12" zoom="4.5" >}}
+    {{< geosource >}}
+{{< /map >}}
 
 {{< stats >}}
   {{< stat number="88" label="Tage" >}}

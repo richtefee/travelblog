@@ -1,0 +1,32 @@
+{{/* 1. Split the key (e.g., "Germany-Überlingen-Bahnhof") */}}
+{{ $parts := split . "-" }}
+{{ $country := index $parts 0 }}
+{{ $city := index $parts 1 }}
+{{ $place := index $parts 2 | default "" }}
+
+{{/* 2. Lookup in data/geo/places.yaml */}}
+{{ $data := site.Data.geo.places }}
+{{ $match := "" }}
+{{ if $place }}
+  {{ $match = index $data $country $city $place }}
+{{ else }}
+  {{ $match = index $data $country $city }}
+{{ end }}
+
+{{/* 3. Extract base coordinates */}}
+{{ $lat := $match.lat }}
+{{ $lon := $match.lon }}
+
+{{/* 4. Apply your existing jitter if the YAML flag is true */}}
+{{ if $match.jitter }}
+  {{/* Create the dict your jitter.html expects */}}
+  {{ $jitter_args := dict "lat" $lat "lon" $lon "meters" 100 }}
+  {{ $result := partial "geojson/jitter.html" $jitter_args }}
+
+  {{/* Update variables with jittered results */}}
+  {{ $lat = $result.lat }}
+  {{ $lon = $result.lon }}
+{{ end }}
+
+{{/* 5. Return as GeoJSON coordinate array [lon, lat] */}}
+{{ return (slice $lon $lat | jsonify) }}
