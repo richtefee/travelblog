@@ -1,4 +1,4 @@
-------
+---
 title: "Zeit für Reflexion"
 showTableOfContents: true
 date: 2026-01-20
@@ -7,7 +7,6 @@ summary: "Erzählenswertes, das keinen Einzug in die bisherigen Blogposts gefund
 tags: ["Reflexion"]
 map:
   show: true
-  privacy: false
   location:
      name: Cameroon-Yaounde-Party
 ---

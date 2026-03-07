@@ -9,9 +9,8 @@ series: ["Dja National Reserve"]
 series_order: 1
 map:
   show: true
-  privacy: false
   location:
-     name: Cameroon-Somalomo 
+     name: Cameroon-Somalomo-Auberge
 ---
 
 Nachdem wir für etwa 10 Wochen vorwiegend in Yaoundé gelebt haben, wollten wir in den letzten Wochen unsere Kamerun Erfahrung noch etwas diversifizieren. _Zwischen den Jahren_ packten wir also unsere sieben Sachen, verabschiedeten uns schweren Herzens von unserer Gastfamilie und liefen ein letztes Mal unsere liebgewonnene Straße rauf, um mit __"300, 2 Plätze, Terminus Mimboman, geben 500"__ unsere Reise zum Nationalpark Dja zu beginnen.

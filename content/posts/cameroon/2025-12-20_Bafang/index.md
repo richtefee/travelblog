@@ -8,7 +8,7 @@ tags: []
 map:
   show: true
   location:
-    name: Cameroon-Bafang 
+    name: Cameroon-Bafang-Familie_Sandrine 
 ---
 
 Für ein Klassentreffen unserer Gastgeberin bot sich uns die Gelegenheit in den Heimatort Bafang in West Kamerun mitzukommen. Praktischerweise waren sowohl Unterkunft bei Familie als auch die Hinfahrt über eine Mitfahrgelegenheit bereits geregelt. Und so begann unsere 3-nächtige Exkursion.

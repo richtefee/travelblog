@@ -7,9 +7,8 @@ summary: "Strand soweit das Auge reicht; Hitze und Moskitos im Überfluss."
 tags: ["Stadt"]
 map:
   show: true
-  privacy: false
   location:
-    name: Cameroon-Kribi
+    name: Cameroon-Kribi-Auberge
 ---
 
 ## Ab ans Meer

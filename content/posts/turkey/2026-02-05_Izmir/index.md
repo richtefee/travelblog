@@ -6,9 +6,8 @@ summary: "... nö, ist es nicht. Denn in Izmir lässt es sich gut leben und arbe
 tags: ["Stadt"]
 map:
   show: true
-  privacy: false
   location:
-    name: Turkey-Izmir 
+    name: Turkey-Izmir-WA_Hostel 
 ---
 
 {{< video src="Izmir.webm" autoplay=false loop=false muted=false >}}

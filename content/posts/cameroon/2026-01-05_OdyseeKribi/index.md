@@ -9,9 +9,8 @@ series: ["Dja National Reserve"]
 series_order: 3
 map:
   show: true
-  privacy: false
   location:
-    name: Cameroon-Ebolowa
+    name: Cameroon-Ebolowa-Hotel
 ---
 
 Für die Rückreise wollten wir, statt zurück nach Yaoundé, lieber noch weitere Gegenden erkunden. Daher hatten wir uns bei unserem Touren-Team in Somalomo erkundet welche Alternativen es gibt. Nicht viele, denn es gibt genau drei Wege aus Somalomo: Die bekannte Staubroute Richtung Yaoundé, eine weitere die nach 60 km im Nationalpark endet und eine dritte gen Westen, die allerdings nur für Motoräder geeignet ist.

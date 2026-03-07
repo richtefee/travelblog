@@ -6,9 +6,8 @@ summary: "Was uns nun doch nach Kamerun führt und unsere Reise dorthin."
 tags: []
 map:
   show: true
-  privacy: false
-  location:
-     name: Cameroon-Douala-Airport 
+  location: 
+      name: Cameroon-Douala-Airport 
 ---
 
 Wie im Artikel [Jetzt geht's los]({{< relref "posts/2025-10-10_LetsGetStarted" >}}) erwähnt, legten wir bis Oktober alle Aufgaben, Verantwortlichkeiten und Projekte ab, um uns ganz auf die Reise gen Osten einzulassen. So leicht uns der Abschluss praktisch aller Projekte fiel, so sehr brummte es hingegen bei [Hand on Heart Cameroon](https://handonheartcameroon.com). Hier ging’s gerade richtig rund: Neue Projekte aus bewilligten Anträgen sollten initiiert werden, weitere Anträge standen an, eine neue Webseite befindet sich im Aufbau und im November sollten Partner der Charité Berlin für ein gemeinsames Fortbildungsprojekt kommen. Viele zentrale Projekte, die darüber entscheiden könnten, ob aus dem Verein ein zentraler Player im Bereich der mentalen Gesundheit in Kamerun werden kann, liefen hier gerade zusammen. Es erschien uns wie ein kritisches Zeitfenster.
