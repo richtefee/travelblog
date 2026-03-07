@@ -4,7 +4,7 @@ showTableOfContents: true
 date: 2025-10-25
 draft: false
 summary: "Wie wir die Arbeit von HoH vor Ort erleben und begleiten."
-tags: []
+tags: ["Projekt"]
 map:
   show: true
   location:
