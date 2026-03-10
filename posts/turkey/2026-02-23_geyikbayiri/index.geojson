@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Über den Wolken von Antalya",
+      "url": "/posts/turkey/2026-02-23_geyikbayiri/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.46397160269388,36.86667285399578]
+    }
+  }
