@@ -12,7 +12,6 @@ map:
 
 {{< video src="Izmir.webm" autoplay=false loop=false muted=false >}}
 
-
 ## Ab ins Dorf?
 ​Am 20.01. machten wir uns um 6:30 Uhr auf den Weg, um den 0°C in Istanbul zu entfliehen; diesmal per BlaBlaCar. Ein freundlicher Pendler nahm uns mit in Richtung Süden. Kaum hatten wir die Hälfte der Strecke zurückgelegt, wichen die dunklen Wolken einem strahlend blauen Himmel. Auf der Fahrt warnte uns unser Mitfahrer Can Mert als Erster – aber sicher nicht als Letzter – vor, wie „langweilig“ Izmir doch sei; eigentlich sei es nur das größte Dorf der Türkei und keine richtige Stadt. Sobald wir uns dem _Dorf_ näherten, entstand bei uns jedoch ein völlig anderer Eindruck: schicke Shoppingmalls und prächtige Hochhäuser säumten rechts und links die Einfahrt der Stadt, die mit knapp 4,5 Millionen Einwohnern immerhin die drittgrößte der Türkei ist.
 
