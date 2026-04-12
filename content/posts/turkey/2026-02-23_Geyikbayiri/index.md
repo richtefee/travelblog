@@ -2,7 +2,7 @@
 title: "Über den Wolken von Antalya"
 date: 2026-02-23
 draft: false
-summary: "Von belebtem Hostel in der Stadt zu einsamen Hotel in den Bergen... _Shining_ lässt Grüßen."
+summary: "Vom belebten Hostel in der Stadt zum einsamen Hotel in den Bergen... _Shining_ lässt Grüßen."
 tags: ["Natur", "Projekt"]
 map:
   show: true
