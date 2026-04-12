@@ -1,9 +1,6 @@
-{{/* push data into scratch */}}
+{{ $number := .Get "number" }}
+{{ $label := .Get "label" }}
+
 {{ $list := .Page.Scratch.Get "stats" | default (slice) }}
-
-{{ $list = $list | append (dict
-  "number" (.Get "number")
-  "label"  (.Get "label")
-) }}
-
-{{ .Page.Scratch.Set "stats" $list }}
+{{ $list = $list | append (dict "number" $number "label" $label) }}
+{{ .Page.Store.Set "stats" $list }}
