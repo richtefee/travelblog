@@ -119,7 +119,8 @@
         "coordinates": [
           [28.977545,41.036767],
           [27.143424,38.420486],
-          [30.46397160269388,36.86667285399578]
+          [30.46397160269388,36.86667285399578],
+          [34.834447,38.642415]
         ]
       }
     },{
@@ -186,6 +187,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Geyikbayiri"},
       "geometry": { "type": "Point", "coordinates": [30.46397160269388,36.86667285399578] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Göreme"},
+      "geometry": { "type": "Point", "coordinates": [34.834447,38.642415] }
     }
   ]
 }

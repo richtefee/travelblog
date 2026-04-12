@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Charmant wie's hier bröselt",
+      "url": "/posts/turkey/2026-03-16_kapadokya/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [34.834447,38.642415]
+    }
+  }

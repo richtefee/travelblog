@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Little Prince Academy",
+      "url": "/posts/turkey/2026-03-09_lpa/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [34.834447,38.642415]
+    }
+  }

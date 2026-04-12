@@ -121,7 +121,8 @@
         "coordinates": [
           {{ partial $rp "Turkey-Istanbul-Hotel" }},
           {{ partial $rp "Turkey-Izmir-WA_Hostel" }},
-          {{ partial $rp "Turkey-Geyikbayiri-WA_Hotel" }}
+          {{ partial $rp "Turkey-Geyikbayiri-WA_Hotel" }},
+          {{ partial $rp "Turkey-Göreme-WA_LPA" }}
         ]
       }
     },
@@ -190,6 +191,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Geyikbayiri"},
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Geyikbayiri-WA_Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Göreme"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Göreme-WA_LPA" }} }
     }
   ]
 }
