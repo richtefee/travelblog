@@ -4,7 +4,10 @@ Switzerland:
       lat: 46.52476259561158
       lon: 6.624439688499363
       jitter: true
-
+      stays:
+        - from: 2020-10-01
+          to: 2025-09-30
+          type: home
 Germany:
   Überlingen:
     Bahnhof:
@@ -15,7 +18,10 @@ Germany:
       lat: 49.488559448998664
       lon: 8.473277060783197
       jitter: true
-
+      stays:
+        - from: 2025-10-01
+          to: 2025-10-13
+          type: home
 Belgium:
   Brussels:
     CS_Barbara:
@@ -91,3 +97,36 @@ Turkey:
     WA_LPA:
       lat: 38.642415
       lon: 34.834447
+  Gaziantep:
+    CS_Sinan:
+      lat: 37.090727
+      lon: 37.345943
+      jitter: true
+  Sanliurfa:
+    Hotel:
+      lat: 37.149279
+      lon: 38.786554
+  Adiyaman:
+    CS_Yetkin:
+      lat: 37.778329
+      lon: 38.326461
+      jitter: true
+  Mardin:
+    CS_Jiyan:
+      lat: 37.330014
+      lon: 40.709044
+      jitter: true
+  Van:
+    Hotel:
+      lat: 38.502605
+      lon: 43.397854
+  Kars:
+    Hotel:
+      lat: 40.605799
+      lon: 43.097709
+Georgia:
+  Batumi:
+    AirBnB:
+      lat: 41.616199
+      lon: 41.631233
+      jitter: false
