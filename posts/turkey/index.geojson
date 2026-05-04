@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Reise durch Kurdistan",
+      "url": "/posts/turkey/2026-03-23_kurdistan/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [40.70791919823431,37.330014]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Charmant wie's hier bröselt",
       "url": "/posts/turkey/2026-03-16_kapadokya/"
     },

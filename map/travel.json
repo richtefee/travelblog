@@ -120,7 +120,13 @@
           [28.977545,41.036767],
           [27.143424,38.420486],
           [30.46397160269388,36.86667285399578],
-          [34.834447,38.642415]
+          [34.834447,38.642415],
+          [37.344829376244284,37.090727],
+          [38.786554,37.149279],
+          [38.32532216196525,37.778329],
+          [40.70791919823431,37.330014],
+          [43.397854,38.502605],
+          [43.097709,40.605799]
         ]
       }
     },{
@@ -192,6 +198,36 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Göreme"},
       "geometry": { "type": "Point", "coordinates": [34.834447,38.642415] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Gaziantep"},
+      "geometry": { "type": "Point", "coordinates": [37.344829376244284,37.090727] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sanliurfa"},
+      "geometry": { "type": "Point", "coordinates": [38.786554,37.149279] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Adiyaman"},
+      "geometry": { "type": "Point", "coordinates": [38.32532216196525,37.778329] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Mardin"},
+      "geometry": { "type": "Point", "coordinates": [40.70791919823431,37.330014] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Van"},
+      "geometry": { "type": "Point", "coordinates": [43.397854,38.502605] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Kars"},
+      "geometry": { "type": "Point", "coordinates": [43.097709,40.605799] }
     }
   ]
 }
