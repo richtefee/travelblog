@@ -130,3 +130,23 @@ Georgia:
       lat: 41.616199
       lon: 41.631233
       jitter: false
+  Kutaisi:
+    CS_Dima:
+      lat: 42.250613
+      lon: 42.686048
+      jitter: true
+  Zugdidi:
+    WA_Zome:
+      lat: 42.502480
+      lon: 41.847176
+      jitter: true
+  Tbilisi:
+    Hostel:
+      lat: 41.6905631
+      lon: 44.7996229
+      jitter: false
+  Telavi:
+    WA_Guesthouse:
+      lat: 41.917391
+      lon: 45.483299
+      jitter: false

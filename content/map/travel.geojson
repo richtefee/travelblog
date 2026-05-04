@@ -122,7 +122,13 @@
           {{ partial $rp "Turkey-Istanbul-Hotel" }},
           {{ partial $rp "Turkey-Izmir-WA_Hostel" }},
           {{ partial $rp "Turkey-Geyikbayiri-WA_Hotel" }},
-          {{ partial $rp "Turkey-Göreme-WA_LPA" }}
+          {{ partial $rp "Turkey-Göreme-WA_LPA" }},
+          {{ partial $rp "Turkey-Gaziantep-CS_Sinan" }},
+          {{ partial $rp "Turkey-Sanliurfa-Hotel" }},
+          {{ partial $rp "Turkey-Adiyaman-CS_Yetkin" }},
+          {{ partial $rp "Turkey-Mardin-CS_Jiyan" }},
+          {{ partial $rp "Turkey-Van-Hotel" }},
+          {{ partial $rp "Turkey-Kars-Hotel" }}
         ]
       }
     },
@@ -196,6 +202,36 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Göreme"},
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Göreme-WA_LPA" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Gaziantep"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Gaziantep-CS_Sinan" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sanliurfa"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Sanliurfa-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Adiyaman"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Adiyaman-CS_Yetkin" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Mardin"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Mardin-CS_Jiyan" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Van"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Van-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Kars"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Kars-Hotel" }} }
     }
   ]
 }
