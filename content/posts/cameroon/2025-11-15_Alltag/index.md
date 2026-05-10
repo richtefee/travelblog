@@ -29,8 +29,6 @@ Nach dem Essen geht es mit variablen Arbeiten weiter. Diese sind häufig für de
 ## Unterbrechnungsreicher Nachmittag
 Je nach Tag kommen die Kinder am Nachmittag nach der Schule kurz nach Hause um zu essen. Häufig geht es von der Schule aber auch direkt in ihre zusätzlichen Lernkursen, die ebenfalls im Schulgebäude und teilweise mit denselben Lehrern stattfinden. Nur für die noch jüngeren Jungs gibt es eine etwas längere Pause, häufig die einzige Zeit in der sie sich mit einem recht platten Fußball im 4x3m² Innenhof austoben dürfen. 
 
-(TODO: Bild von der Schule)
-
 Sobald die Kinder eintrudeln, besteht unsere Aufgabe darin dafür zu sorgen, dass direkt etwas geeignetes, warmes Essbares für sie da ist. <mark>( Blogidee: Essen )</mark>
 Diese und weitere unerwartete Aufgaben, die dann ganz plötzlich höchste Priorität genießen und sofort erledigt werden müssen, machen jeden Tag einmalig und spannend. Zugleich zerpflücken sie aber auch die Arbeitszeit und wirbeln die besprochene Planung mächtig durcheinander. Wenn dies auch nicht unserer Gewohnheit entspricht, so ist es hier doch fester Bestandteil des Alltäglichen und jeder scheint diese Art der fortgesetzt verschobenen Planung auch gleichermaßen zu praktizieren.
 
