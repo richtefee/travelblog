@@ -150,3 +150,8 @@ Georgia:
       lat: 41.917391
       lon: 45.483299
       jitter: false
+  Gomi:
+    WA_DEC:
+      lat: 41.896070
+      lon: 42.095428
+      jitter: false

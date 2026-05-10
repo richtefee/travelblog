@@ -7,6 +7,7 @@ __Viel Spaß beim Lesen!__
   Wenn ihr direkt sehen wollt sobald wir neue Beiträge veröffentlichen, könnt ihr uns einfach __abonieren__. Dafür einfach oben auf den Messenger eurer Wahl klicken.👆
   {{< /accordionItem >}}
   {{< accordionItem title="Neuster Shit" open=false icon="poo" align="left">}}
+  - [Türkei-Übersicht]({{< relref "posts/turkey" >}})
   - [Kamerun-Übersicht]({{< relref "posts/cameroon" >}})
   - [Übersichtskarte unserer Reise]({{< relref "map" >}})
   - Abo Optionen: Whatsapp & Telegram 👆
