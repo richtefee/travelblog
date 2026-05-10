@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Reflexion Türkei",
+      "url": "/posts/turkey/2026-04-03_reflexion/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [43.097709,40.605799]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Reise durch Kurdistan",
       "url": "/posts/turkey/2026-03-23_kurdistan/"
     },
