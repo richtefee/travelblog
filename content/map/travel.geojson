@@ -128,7 +128,9 @@
           {{ partial $rp "Turkey-Adiyaman-CS_Yetkin" }},
           {{ partial $rp "Turkey-Mardin-CS_Jiyan" }},
           {{ partial $rp "Turkey-Van-Hotel" }},
-          {{ partial $rp "Turkey-Kars-Hotel" }}
+          {{ partial $rp "Turkey-Kars-Hotel" }},
+          {{ partial $rp "Georgia-Batumi-AirBnB" }},
+          {{ partial $rp "Georgia-Kutaisi-CS_Dima" }}
         ]
       }
     },
@@ -232,6 +234,15 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Kars"},
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Turkey-Kars-Hotel" }} }
+    },
+        {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Batumi"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Georgia-Batumi-AirBnB" }} }
+    },    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Kutaisi"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Georgia-Kutaisi-CS_Dima" }} }
     }
   ]
 }

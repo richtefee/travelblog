@@ -35,6 +35,13 @@
   parent = "Länder"
   url = "/posts/turkey/"
   weight = 20
+
+[[main]]
+  name = "Georgien"
+  parent = "Länder"
+  url = "/posts/georgia/"
+  weight = 20
+
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"
