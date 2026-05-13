@@ -126,7 +126,9 @@
           [38.32532216196525,37.778329],
           [40.70791919823431,37.330014],
           [43.397854,38.502605],
-          [43.097709,40.605799]
+          [43.097709,40.605799],
+          [41.631233,41.616199],
+          [42.68484524082049,42.250613]
         ]
       }
     },{
@@ -228,6 +230,15 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Kars"},
       "geometry": { "type": "Point", "coordinates": [43.097709,40.605799] }
+    },
+        {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Batumi"},
+      "geometry": { "type": "Point", "coordinates": [41.631233,41.616199] }
+    },    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Kutaisi"},
+      "geometry": { "type": "Point", "coordinates": [42.68484524082049,42.250613] }
     }
   ]
 }

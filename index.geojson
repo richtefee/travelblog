@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Erste Schritte in Georgien",
+      "url": "/posts/georgia/2026-04-03_batumi-kutaisi/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [41.631233,41.616199]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Reflexion Türkei",
       "url": "/posts/turkey/2026-04-03_reflexion/"
     },
