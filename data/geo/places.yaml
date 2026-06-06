@@ -155,3 +155,14 @@ Georgia:
       lat: 41.896070
       lon: 42.095428
       jitter: false
+  Akhaltskihe:
+    Hotel:
+      lat: 41.646084
+      lon: 42.978242
+      jitter: false
+Armenia:
+  Yerevan:
+    Hostel:
+      lat: 40.187892
+      lon: 44.523208
+      jitter: false

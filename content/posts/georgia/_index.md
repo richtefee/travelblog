@@ -71,3 +71,5 @@ Während unserer Zeit fiel der Kurs der türkischen Lira gegenüber dem Euro ber
 In den folgenden Blogposts haben wir unsere Erlebnisse und Einblicke in die türkische Kultur versucht festzuhalten. Wie ihr sehen werdet war diese Zeit geprägt von einigen Projekten in denen wir ca. 3/4 unserer Zeit verbrachten.
 
 -->
+
+## Blogposts
