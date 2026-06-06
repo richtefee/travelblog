@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Zome in Zugdidi",
+      "url": "/posts/georgia/2026-04-15_zugdidi/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [41.84596128550494,42.50248]
+    }
+  }
