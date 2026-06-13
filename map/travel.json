@@ -129,7 +129,8 @@
           [43.097709,40.605799],
           [41.631233,41.616199],
           [42.68484524082049,42.250613],
-          [41.84596128550494,42.50248]
+          [41.84596128550494,42.50248],
+          [44.7996229,41.6905631]
         ]
       }
     },{
@@ -246,6 +247,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Zugdidi"},
       "geometry": { "type": "Point", "coordinates": [41.84596128550494,42.50248] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Tbilisi"},
+      "geometry": { "type": "Point", "coordinates": [44.7996229,41.6905631] }
     }
   ]
 }

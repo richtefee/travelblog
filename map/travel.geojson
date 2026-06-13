@@ -131,7 +131,8 @@
           {{ partial $rp "Turkey-Kars-Hotel" }},
           {{ partial $rp "Georgia-Batumi-AirBnB" }},
           {{ partial $rp "Georgia-Kutaisi-CS_Dima" }},
-          {{ partial $rp "Georgia-Zugdidi-WA_Zome" }}
+          {{ partial $rp "Georgia-Zugdidi-WA_Zome" }},
+          {{ partial $rp "Georgia-Tbilisi-Hostel" }}
         ]
       }
     },
@@ -250,6 +251,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Zugdidi"},
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Georgia-Zugdidi-WA_Zome" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Tbilisi"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Georgia-Tbilisi-Hostel" }} }
     }
   ]
 }

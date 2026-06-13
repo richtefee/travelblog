@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Unser Tbilisi-Flash",
+      "url": "/posts/georgia/2026-04-20_tbilisi/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [44.7996229,41.6905631]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Zome in Zugdidi",
       "url": "/posts/georgia/2026-04-15_zugdidi/"
     },
