@@ -5,7 +5,7 @@
 {{ $place := index $parts 2 | default "" }}
 
 {{/* 2. Lookup in data/geo/places.yaml */}}
-{{ $data := site.Data.geo.places }}
+{{ $data := hugo.Data.geo.places }}
 {{ $match := "" }}
 {{ if $place }}
   {{ $match = index $data $country $city $place }}

@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "de"
-languageName = "Deutsch"
+locale = "de"
+label = "Deutsch"
 weight = 1
 title = "Timezone Nomads"
 
@@ -10,8 +10,8 @@ title = "Timezone Nomads"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/Logo.svg"
- # secondaryLogo = "img/Logo_v4b.svg"
-  # description = "My awesome website"
+  # secondaryLogo = "img/Logo_v4b.svg"
+  # description = "Trave"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
