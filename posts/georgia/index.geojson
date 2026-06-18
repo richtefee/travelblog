@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Unter ProfiköchInnen",
+      "url": "/posts/georgia/2026-05-03_telavi/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [45.483299,41.917391]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Unser Tbilisi-Flash",
       "url": "/posts/georgia/2026-04-20_tbilisi/"
     },

@@ -130,7 +130,8 @@
           [41.631233,41.616199],
           [42.68484524082049,42.250613],
           [41.84596128550494,42.50248],
-          [44.7996229,41.6905631]
+          [44.7996229,41.6905631],
+          [45.483299,41.917391]
         ]
       }
     },{
@@ -252,6 +253,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Tbilisi"},
       "geometry": { "type": "Point", "coordinates": [44.7996229,41.6905631] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Telavi"},
+      "geometry": { "type": "Point", "coordinates": [45.483299,41.917391] }
     }
   ]
 }

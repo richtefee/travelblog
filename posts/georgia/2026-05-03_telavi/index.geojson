@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Unter ProfiköchInnen",
+      "url": "/posts/georgia/2026-05-03_telavi/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [45.483299,41.917391]
+    }
+  }
