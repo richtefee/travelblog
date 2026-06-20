@@ -6,42 +6,68 @@ Switzerland:
       jitter: true
       stays:
         - from: 2020-10-01
-          to: 2025-09-30
+          to: 2025-10-01
           type: home
 Germany:
   Überlingen:
-    Bahnhof:
-      lat: 47.768962
-      lon: 9.163040
+    Home:
+      lat: 47.771010
+      lon: 9.215322
+      jitter: true
+      stays:
+        - from: 2025-10-01
+          to: 2025-10-15
+          type: home
   Mannheim:
     Nick:
       lat: 49.488559448998664
       lon: 8.473277060783197
       jitter: true
       stays:
-        - from: 2025-10-01
-          to: 2025-10-13
-          type: home
+        - from: 2025-10-15
+          to: 2025-10-16
+          type: visit
 Belgium:
   Brussels:
     CS_Barbara:
       lat: 50.80126082304624
       lon: 4.396910557727769
       jitter: true
+      stays:
+        - from: 2025-10-16
+          to: 2025-10-17
+          type: visit
 Marocco:
   Casablanca:
     Airport:
       lat: 33.370378866408345
       lon: -7.582874310554968
-
+      jitter: false
+      stays:
+        - from: 2025-10-18
+          to: 2025-10-18
+          type: transit
 Cameroon:
   Douala:
     Airport:
       lat: 4.013085409075031
       lon: 9.717232604049611
+      jitter: false
+      stays:
+        - from: 2025-10-18
+          to: 2025-10-18
+          type: transit
+        - from: 2026-01-13
+          to: 2026-01-14
+          type: transit
     Hotel:
       lat: 4.043770
       lon: 9.711522
+      jitter: false
+      stays:
+        - from: 2026-01-05
+          to: 2026-01-13
+          type: visit
   Bafang:
     Familie_Sandrine:
       lat: 5.161997473467246
@@ -145,6 +171,10 @@ Georgia:
       lat: 41.6905631
       lon: 44.7996229
       jitter: false
+    HostelNamaste:
+      lat: 41.689376
+      lon: 44.806893
+      jitter: false
   Telavi:
     WA_Guesthouse:
       lat: 41.917391
@@ -165,4 +195,49 @@ Armenia:
     Hostel:
       lat: 40.187892
       lon: 44.523208
+      jitter: false
+    AirBnB:
+      lat: 40.184115
+      lon: 44.468427
+      jitter: false
+  Jermuk:
+    Appartement:
+      lat: 39.835308
+      lon: 45.665155
+      jitter: false
+  Sevan:
+    Hotel:
+      lat: 40.384888
+      lon: 45.150791
+      jitter: false
+  Dilijan:
+    Hostel:
+      lat: 40.74358
+      lon: 44.872304
+      jitter: false
+  Geghard:
+    Camping:
+      lat: 40.144475
+      lon: 44.802322
+      jitter: false
+  Sissian:
+    Hotel:
+      lat: 39.528022
+      lon: 46.012553
+      jitter: false
+  Kapan:
+    Appartement:
+      lat:
+      lon:
+      jitter: false
+  Areni:
+    Hotel:
+      lat: 39.72973
+      lon: 45.188625
+      jitter: false
+Azerbaijan:
+  Lankaran:
+    WA_Community:
+      lat: 38.684735
+      lon: 48.731148
       jitter: false
