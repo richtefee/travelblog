@@ -15,7 +15,7 @@
         "type": "LineString",
         "coordinates": [
           {{ partial $rp "Switzerland-Lausanne-Home" }},
-          {{ partial $rp "Germany-Überlingen-Bahnhof" }},
+          {{ partial $rp "Germany-Deisendorf-Home" }},
           {{ partial $rp "Germany-Mannheim-Nick" }},
           {{ partial $rp "Belgium-Brussels-CS_Barbara" }}
         ]
@@ -130,10 +130,12 @@
           {{ partial $rp "Turkey-Van-Hotel" }},
           {{ partial $rp "Turkey-Kars-Hotel" }},
           {{ partial $rp "Georgia-Batumi-AirBnB" }},
+          [41.77380, 41.99570],
           {{ partial $rp "Georgia-Kutaisi-CS_Dima" }},
           {{ partial $rp "Georgia-Zugdidi-WA_Zome" }},
           {{ partial $rp "Georgia-Tbilisi-Hostel" }},
-          {{ partial $rp "Georgia-Telavi-WA_Guesthouse" }}
+          {{ partial $rp "Georgia-Telavi-WA_Guesthouse" }},
+          {{ partial $rp "Georgia-Gomi-WA_DEC" }}
         ]
       }
     },
@@ -145,8 +147,8 @@
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Überlingen" },
-      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Germany-Überlingen-Bahnhof" }} }
+      "properties": { "kind": "stop", "group": "stop", "city": "Deisendorf" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Germany-Deisendorf-Home" }} }
     },
     {
       "type": "Feature",
@@ -262,6 +264,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Telavi"},
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Georgia-Telavi-WA_Guesthouse" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Gomi"},
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Georgia-Gomi-WA_DEC" }} }
     }
   ]
 }

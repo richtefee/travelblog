@@ -13,7 +13,7 @@
         "type": "LineString",
         "coordinates": [
           [6.623149732921227,46.52476259561158],
-          [9.16304,47.768962],
+          [null,null],
           [8.471907330556736,49.488559448998664],
           [4.39550218041788,50.80126082304624]
         ]
@@ -128,10 +128,12 @@
           [43.397854,38.502605],
           [43.097709,40.605799],
           [41.631233,41.616199],
+          [41.77380, 41.99570],
           [42.68484524082049,42.250613],
           [41.84596128550494,42.50248],
           [44.7996229,41.6905631],
-          [45.483299,41.917391]
+          [45.483299,41.917391],
+          [42.095428,41.89607]
         ]
       }
     },{
@@ -141,8 +143,8 @@
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Überlingen" },
-      "geometry": { "type": "Point", "coordinates": [9.16304,47.768962] }
+      "properties": { "kind": "stop", "group": "stop", "city": "Deisendorf" },
+      "geometry": { "type": "Point", "coordinates": [null,null] }
     },
     {
       "type": "Feature",
@@ -258,6 +260,11 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Telavi"},
       "geometry": { "type": "Point", "coordinates": [45.483299,41.917391] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Gomi"},
+      "geometry": { "type": "Point", "coordinates": [42.095428,41.89607] }
     }
   ]
 }

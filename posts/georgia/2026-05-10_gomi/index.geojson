@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Ruhe im Schatten des Berges Gomi",
+      "url": "/posts/georgia/2026-05-10_gomi/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [42.095428,41.89607]
+    }
+  }
