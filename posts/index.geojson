@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Über alle Berge nach Armenien",
+      "url": "/posts/georgia/2026-05-17_transitarmenia/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [42.978242,41.646084]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Ruhe im Schatten des Berges Gomi",
       "url": "/posts/georgia/2026-05-10_gomi/"
     },

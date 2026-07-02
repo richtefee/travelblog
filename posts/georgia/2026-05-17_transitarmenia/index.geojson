@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Über alle Berge nach Armenien",
+      "url": "/posts/georgia/2026-05-17_transitarmenia/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [42.978242,41.646084]
+    }
+  }

@@ -13,7 +13,7 @@
         "type": "LineString",
         "coordinates": [
           [6.623149732921227,46.52476259561158],
-          [null,null],
+          [9.213989595705318,47.77101],
           [8.471907330556736,49.488559448998664],
           [4.39550218041788,50.80126082304624]
         ]
@@ -133,7 +133,10 @@
           [41.84596128550494,42.50248],
           [44.7996229,41.6905631],
           [45.483299,41.917391],
-          [42.095428,41.89607]
+          [42.095428,41.89607],
+          [42.978242,41.646084],
+          [43.79412,41.13882],
+          [44.523208,40.187892]
         ]
       }
     },{
@@ -144,7 +147,7 @@
     {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Deisendorf" },
-      "geometry": { "type": "Point", "coordinates": [null,null] }
+      "geometry": { "type": "Point", "coordinates": [9.213989595705318,47.77101] }
     },
     {
       "type": "Feature",
@@ -265,6 +268,16 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Gomi"},
       "geometry": { "type": "Point", "coordinates": [42.095428,41.89607] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Akhaltskihe"},
+      "geometry": { "type": "Point", "coordinates": [42.978242,41.646084] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan"},
+      "geometry": { "type": "Point", "coordinates": [44.523208,40.187892] }
     }
   ]
 }
