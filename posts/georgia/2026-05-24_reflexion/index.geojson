@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Reflexion Georgien",
+      "url": "/posts/georgia/2026-05-24_reflexion/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [42.68484524082049,42.250613]
+    }
+  }
