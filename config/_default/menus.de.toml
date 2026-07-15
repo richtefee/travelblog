@@ -25,21 +25,27 @@
   weight = 20
 
 [[main]]
-  name = "Kamerun"
+  name = "🇨🇲 Kamerun"
   parent = "Länder"
   url = "/posts/cameroon/"
   weight = 20
 
 [[main]]
-  name = "Türkei"
+  name = "🇹🇷 Türkei"
   parent = "Länder"
   url = "/posts/turkey/"
   weight = 20
 
 [[main]]
-  name = "Georgien"
+  name = "🇬🇪 Georgien"
   parent = "Länder"
   url = "/posts/georgia/"
+  weight = 20
+
+[[main]]
+  name = "🇦🇲 Armenien"
+  parent = "Länder"
+  url = "/posts/armenia/"
   weight = 20
 
 #[[main]]

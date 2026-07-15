@@ -2,7 +2,7 @@
 title: "Über alle Berge nach Armenien"
 date: 2026-05-17
 draft: false
-summary: "Umwege erweitern bekanntlich die Ortskenntnis, und es hat sich doch gelohnt."
+summary: "Umwege erweitern ja bekanntlich die Ortskenntnis... 😉"
 tags: ["Natur","Transit", "Kultur"]
 map:
   show: true
