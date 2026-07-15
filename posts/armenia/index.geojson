@@ -1,0 +1,12 @@
+{
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
+      "title": "Roadtrip durch Armenien",
+      "url": "/posts/armenia/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [44.523208,40.187892]
+    }
+  }

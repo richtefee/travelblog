@@ -136,7 +136,17 @@
           [42.095428,41.89607],
           [42.978242,41.646084],
           [43.79412,41.13882],
-          [44.523208,40.187892]
+          [44.523208,40.187892],
+          [44.468427,40.184115],
+          [45.665155,39.835308],
+          [45.150791,40.384888],
+          [44.872304,40.74358],
+          [44.802322,40.144475],
+          [46.012553,39.528022],
+          [46.358676,39.176485],
+          [45.188625,39.72973],
+          [44.508287,40.155304],
+          [44.806893,41.689376]
         ]
       }
     },{
@@ -278,6 +288,56 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Yerevan"},
       "geometry": { "type": "Point", "coordinates": [44.523208,40.187892] }
+    },
+      {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan" },
+      "geometry": { "type": "Point", "coordinates": [44.523208,40.187892] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan" },
+      "geometry": { "type": "Point", "coordinates": [44.468427,40.184115] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Jermuk" },
+      "geometry": { "type": "Point", "coordinates": [45.665155,39.835308] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sevan" },
+      "geometry": { "type": "Point", "coordinates": [45.150791,40.384888] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Dilijan" },
+      "geometry": { "type": "Point", "coordinates": [44.872304,40.74358] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Geghard" },
+      "geometry": { "type": "Point", "coordinates": [44.802322,40.144475] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sissian" },
+      "geometry": { "type": "Point", "coordinates": [46.012553,39.528022] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Kapan" },
+      "geometry": { "type": "Point", "coordinates": [46.358676,39.176485] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Areni" },
+      "geometry": { "type": "Point", "coordinates": [45.188625,39.72973] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Areni" },
+      "geometry": { "type": "Point", "coordinates": [44.806893,41.689376] }
     }
   ]
 }

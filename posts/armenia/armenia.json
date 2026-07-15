@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan" },
+      "geometry": { "type": "Point", "coordinates": [44.523208,40.187892] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan" },
+      "geometry": { "type": "Point", "coordinates": [44.468427,40.184115] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Jermuk" },
+      "geometry": { "type": "Point", "coordinates": [45.665155,39.835308] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sevan" },
+      "geometry": { "type": "Point", "coordinates": [45.150791,40.384888] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sevan2" },
+      "geometry": { "type": "Point", "coordinates": [45.011991486030546,40.56281865660264] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Dilijan" },
+      "geometry": { "type": "Point", "coordinates": [44.872304,40.74358] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Geghard" },
+      "geometry": { "type": "Point", "coordinates": [44.802322,40.144475] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sissian" },
+      "geometry": { "type": "Point", "coordinates": [46.012553,39.528022] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Kapan" },
+      "geometry": { "type": "Point", "coordinates": [46.358676,39.176485] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Areni" },
+      "geometry": { "type": "Point", "coordinates": [45.188625,39.72973] }
+    }
+  ]
+}
