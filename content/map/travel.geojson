@@ -138,7 +138,17 @@
           {{ partial $rp "Georgia-Gomi-WA_DEC" }},
           {{ partial $rp "Georgia-Akhaltskihe-Hotel" }},
           [43.79412,41.13882],
-          {{ partial $rp "Armenia-Yerevan-Hostel" }}
+          {{ partial $rp "Armenia-Yerevan-Hostel" }},
+          {{ partial $rp "Armenia-Yerevan-AirBnB" }},
+          {{ partial $rp "Armenia-Jermuk-Appartement" }},
+          {{ partial $rp "Armenia-Sevan-Hotel" }},
+          {{ partial $rp "Armenia-Dilijan-Hostel" }},
+          {{ partial $rp "Armenia-Geghard-Camping" }},
+          {{ partial $rp "Armenia-Sissian-Hotel" }},
+          {{ partial $rp "Armenia-Kapan-Appartement" }},
+          {{ partial $rp "Armenia-Areni-Hotel" }},
+          {{ partial $rp "Armenia-Yerevan-Bahnhof" }},
+          {{ partial $rp "Georgia-Tbilisi-HostelNamaste" }}
         ]
       }
     },
@@ -282,6 +292,56 @@
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Yerevan"},
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Yerevan-Hostel" }} }
+    },
+      {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Yerevan-Hostel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Yerevan-AirBnB" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Jermuk" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Jermuk-Appartement" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sevan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Sevan-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Dilijan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Dilijan-Hostel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Geghard" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Geghard-Camping" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sissian" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Sissian-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Kapan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Kapan-Appartement" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Areni" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Areni-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Areni" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Georgia-Tbilisi-HostelNamaste" }} }
     }
   ]
 }

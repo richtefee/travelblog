@@ -200,6 +200,10 @@ Armenia:
       lat: 40.184115
       lon: 44.468427
       jitter: false
+    Bahnhof:
+      lat: 40.155304
+      lon: 44.508287
+      jitter: false
   Jermuk:
     Appartement:
       lat: 39.835308
@@ -227,8 +231,8 @@ Armenia:
       jitter: false
   Kapan:
     Appartement:
-      lat:
-      lon:
+      lat: 39.176485
+      lon: 46.358676
       jitter: false
   Areni:
     Hotel:
@@ -240,4 +244,42 @@ Azerbaijan:
     WA_Community:
       lat: 38.684735
       lon: 48.731148
+      jitter: false
+  Baku:
+    CS_Sefali:
+      lat: 40.406443
+      lon: 49.956398
+      jitter: true
+  Alat:
+    Port:
+      lat: 39.972107
+      lon: 49.443039
+      jitter: false
+  CaspischesMeer:
+    Ankerpunkt:
+      lat: 42.7026
+      lon: 52.4062
+      jitter: false
+Kazakhstan:
+  Aktau:
+    AirBnB:
+      lat: 43.643596
+      lon: 51.163285
+      jitter: false
+    Hostel:
+      lat: 43.638561
+      lon: 51.170778
+      jitter: false
+  SteppeMangystau:
+    Ayrakty:
+      lat: 44.2575750
+      lon: 52.0805530
+      jitter: false
+    Tuzbair:
+      lat: 44.039175
+      lon: 53.158841
+      jitter: false
+    Ybykty:
+      lat: 43.933837
+      lon: 51.723052
       jitter: false

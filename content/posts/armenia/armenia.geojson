@@ -1,0 +1,60 @@
+{{- $rp := "geojson/resolve-place.html" -}}
+
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {{- /* Individual Stops follow... */ -}}
+
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Yerevan-Hostel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Yerevan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Yerevan-AirBnB" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Jermuk" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Jermuk-Appartement" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sevan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Sevan-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sevan2" },
+      "geometry": { "type": "Point", "coordinates": [45.011991486030546,40.56281865660264] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Dilijan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Dilijan-Hostel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Geghard" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Geghard-Camping" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Sissian" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Sissian-Hotel" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Kapan" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Kapan-Appartement" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Areni" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Armenia-Areni-Hotel" }} }
+    }
+  ]
+}
