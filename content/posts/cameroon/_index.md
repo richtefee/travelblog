@@ -38,7 +38,7 @@ options: {
   maintainAspectRatio: false,
   indexAxis: 'y',
   scales: {
-    x: { stacked: true, display: false },
+    x: { stacked: true, display: false, bounds: 'data' },
     y: { stacked: true, display: false }
   },
   plugins: {
