@@ -2,7 +2,7 @@
 title: "Roadtrip durch Armenien"
 date: 2026-05-31
 draft: false
-summary: "Mit Lukas und einem tiefgelegten Sportleihwagen durch die Bergwelt Armeniens"
+summary: "Mit Lukas und einem tiefgelegten Sportleihwagen durch die Bergwelt Armeniens."
 tags: ["Natur","Bekannte","Transit","Stadt","Kultur"]
 map:
   show: true

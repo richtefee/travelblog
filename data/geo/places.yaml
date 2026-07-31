@@ -246,6 +246,9 @@ Azerbaijan:
       lon: 48.731148
       jitter: false
   Baku:
+    Airport:
+      lat: 40.46556
+      lon: 50.05225
     CS_Sefali:
       lat: 40.406443
       lon: 49.956398
@@ -283,3 +286,20 @@ Kazakhstan:
       lat: 43.933837
       lon: 51.723052
       jitter: false
+  Beynew:
+    Hotel:
+      lat: 45.320678
+      lon: 55.189218
+      jitter: false
+Uzbekistan:
+  Khiva:
+    AirBnB:
+      lat: 41.376255
+      lon: 60.373303
+      jitter: false
+  Buchara:
+    Hotel:
+      lat: 39.779835
+      lon: 64.41879
+      jitter: false
+
