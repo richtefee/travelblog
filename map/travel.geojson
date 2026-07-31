@@ -152,6 +152,39 @@
         ]
       }
     },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "geodesic",
+        "group": "route",
+        "cities": ["Tbilisi, GE", "Baku, AZ"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          {{ partial $rp "Georgia-Tbilisi-HostelNamaste" }},
+          {{ partial $rp "Azerbaijan-Baku-Airport" }}
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": ["Istanbul, TR", "Izmir, TR", "Geyikbayiri, TR"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          {{ partial $rp "Azerbaijan-Baku-Airport" }},
+          [ 49.798577,40.417927],
+          {{ partial $rp "Azerbaijan-Lankaran-WA_Community" }}
+        ]
+      }
+    },
     {{- /* Individual Stops follow... */ -}}
     {
       "type": "Feature",
@@ -340,8 +373,13 @@
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Areni" },
+      "properties": { "kind": "stop", "group": "stop", "city": "Tbilisi" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Georgia-Tbilisi-HostelNamaste" }} }
+    },
+        {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Azerbaijan-Lankaran-WA_Community" }} }
     }
   ]
 }

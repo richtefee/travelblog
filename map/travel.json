@@ -149,6 +149,39 @@
           [44.806893,41.689376]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "geodesic",
+        "group": "route",
+        "cities": ["Tbilisi, GE", "Baku, AZ"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [44.806893,41.689376],
+          [50.05225,40.46556]
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "style": "linear",
+        "group": "route",
+        "cities": ["Istanbul, TR", "Izmir, TR", "Geyikbayiri, TR"]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [50.05225,40.46556],
+          [ 49.798577,40.417927],
+          [48.731148,38.684735]
+        ]
+      }
     },{
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Lausanne" },
@@ -336,8 +369,13 @@
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Areni" },
+      "properties": { "kind": "stop", "group": "stop", "city": "Tbilisi" },
       "geometry": { "type": "Point", "coordinates": [44.806893,41.689376] }
+    },
+        {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "geometry": { "type": "Point", "coordinates": [48.731148,38.684735] }
     }
   ]
 }

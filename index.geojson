@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Gemeinschaft am Fuße des Talisch Gebirges",
+      "url": "/posts/azerbaijan/2026-06-20_lankaran/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [48.731148,38.684735]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Roadtrip durch Armenien",
       "url": "/posts/armenia/"
     },
