@@ -12,8 +12,18 @@
   data-zoom="{{ .Get "zoom" | default "2" }}"
 ></div>
 
-<link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
-<script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/maplibre-gl@6.1.0/dist/maplibre-gl.css"
+/>
+
+<script type="module">
+  import * as maplibregl from "https://unpkg.com/maplibre-gl@6.1.0/dist/maplibre-gl.mjs";
+  window.maplibregl = maplibregl;
+  window.dispatchEvent(new Event("maplibre-ready"));
+</script>
+
 <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
 
 {{- $js := resources.Get "js/map/index.js" | js.Build -}}
@@ -27,6 +37,7 @@
     background-color: #f0f0f0;
     visibility: hidden;
   }
+
   .map.is-ready {
     visibility: visible;
   }
