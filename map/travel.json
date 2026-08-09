@@ -178,8 +178,24 @@
         "type": "LineString",
         "coordinates": [
           [50.05225,40.46556],
-          [ 49.798577,40.417927],
-          [48.731148,38.684735]
+          [49.798577,40.417927],
+          [49.4440,40.1316],
+          [48.7738,39.4860],
+          [48.731148,38.684735],
+          [48.7738,39.4860],
+          [49.4440,40.1316],
+          [49.6239,40.2575],
+          [49.95521882274732,40.406443],
+          [49.6239,40.2575],
+          [49.4440,40.1316],
+          [49.443039,39.972107],
+          [50.620,40.166],
+          [52.4062,42.7026],
+          [51.833,42.759],
+          [51.4414,43.1651],
+          [51.5437,43.3861],
+          [51.2828,43.6147],
+          [51.163285,43.643596]
         ]
       }
     },{
@@ -372,10 +388,30 @@
       "properties": { "kind": "stop", "group": "stop", "city": "Tbilisi" },
       "geometry": { "type": "Point", "coordinates": [44.806893,41.689376] }
     },
-        {
+    {
       "type": "Feature",
       "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
       "geometry": { "type": "Point", "coordinates": [48.731148,38.684735] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "geometry": { "type": "Point", "coordinates": [49.95521882274732,40.406443] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "geometry": { "type": "Point", "coordinates": [49.443039,39.972107] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "geometry": { "type": "Point", "coordinates": [52.4062,42.7026] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "geometry": { "type": "Point", "coordinates": [51.163285,43.643596] }
     }
   ]
 }
