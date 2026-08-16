@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Gedanken zu Aserbaidschan",
+      "url": "/posts/azerbaijan/2026-07-05_reflexion/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [49.95521882274732,40.406443]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Hinter glänzenden Fassaden",
       "url": "/posts/azerbaijan/2026-06-30_baku/"
     },
