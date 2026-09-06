@@ -4,7 +4,7 @@ showPagination: false
 showDate: true
 date: 2026-01-20
 showDateUpdated: true
-lastmod: 2026-07-02
+lastmod: 2026-07-10
 showReadingTime: false
 showWordCount: false
 ---
