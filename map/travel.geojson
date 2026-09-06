@@ -197,7 +197,11 @@
           [51.4414,43.1651],
           [51.5437,43.3861],
           [51.2828,43.6147],
-          {{ partial $rp "Kazakhstan-Aktau-AirBnB" }}
+          {{ partial $rp "Kazakhstan-Aktau-AirBnB" }},
+          {{ partial $rp "Kazakhstan-SteppeMangystau-Ayrakty" }},
+          {{ partial $rp "Kazakhstan-SteppeMangystau-Tuzbair" }},
+          {{ partial $rp "Kazakhstan-SteppeMangystau-Ybykty" }},
+          {{ partial $rp "Kazakhstan-Aktau-Hostel" }}
         ]
       }
     },
@@ -399,23 +403,43 @@
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "properties": { "kind": "stop", "group": "stop", "city": "Baku" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Azerbaijan-Baku-CS_Safali" }} }
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "properties": { "kind": "stop", "group": "stop", "city": "Alat" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Azerbaijan-Alat-Port" }} }
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "properties": { "kind": "stop", "group": "stop", "city": "KaspischesMeet" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Azerbaijan-CaspischesMeer-Ankerpunkt" }} }
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "properties": { "kind": "stop", "group": "stop", "city": "Aktau" },
       "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Aktau-AirBnB" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "SteppeMangystau" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-SteppeMangystau-Ayrakty" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "SteppeMangystau" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-SteppeMangystau-Tuzbair" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "SteppeMangystau" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-SteppeMangystau-Ybykty" }} }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Aktau" },
+      "geometry": { "type": "Point", "coordinates": {{ partial $rp "Kazakhstan-Aktau-Hostel" }} }
     }
   ]
 }

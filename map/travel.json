@@ -195,7 +195,11 @@
           [51.4414,43.1651],
           [51.5437,43.3861],
           [51.2828,43.6147],
-          [51.163285,43.643596]
+          [51.163285,43.643596],
+          [52.080553,44.257575],
+          [53.158841,44.039175],
+          [51.723052,43.933837],
+          [51.170778,43.638561]
         ]
       }
     },{
@@ -395,23 +399,43 @@
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "properties": { "kind": "stop", "group": "stop", "city": "Baku" },
       "geometry": { "type": "Point", "coordinates": [49.95521882274732,40.406443] }
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "properties": { "kind": "stop", "group": "stop", "city": "Alat" },
       "geometry": { "type": "Point", "coordinates": [49.443039,39.972107] }
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "properties": { "kind": "stop", "group": "stop", "city": "KaspischesMeet" },
       "geometry": { "type": "Point", "coordinates": [52.4062,42.7026] }
     },
     {
       "type": "Feature",
-      "properties": { "kind": "stop", "group": "stop", "city": "Lankaran" },
+      "properties": { "kind": "stop", "group": "stop", "city": "Aktau" },
       "geometry": { "type": "Point", "coordinates": [51.163285,43.643596] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "SteppeMangystau" },
+      "geometry": { "type": "Point", "coordinates": [52.080553,44.257575] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "SteppeMangystau" },
+      "geometry": { "type": "Point", "coordinates": [53.158841,44.039175] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "SteppeMangystau" },
+      "geometry": { "type": "Point", "coordinates": [51.723052,43.933837] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "stop", "group": "stop", "city": "Aktau" },
+      "geometry": { "type": "Point", "coordinates": [51.170778,43.638561] }
     }
   ]
 }

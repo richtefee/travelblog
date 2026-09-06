@@ -5,6 +5,18 @@
     "type": "Feature",
     "properties": {
       "kind": "article",
+      "title": "Mangystau",
+      "url": "/posts/kazakhstan/2026-07-12_mangystau/"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [51.163285,43.643596]
+    }
+  },
+        {
+    "type": "Feature",
+    "properties": {
+      "kind": "article",
       "title": "Gedanken zu Aserbaidschan",
       "url": "/posts/azerbaijan/2026-07-05_reflexion/"
     },
