@@ -7,6 +7,7 @@ __Viel Spaß beim Lesen!__
   Wenn ihr direkt sehen wollt sobald wir neue Beiträge veröffentlichen, könnt ihr uns einfach __abonieren__. Dafür einfach oben auf den Messenger eurer Wahl klicken.👆
   {{< /accordionItem >}}
   {{< accordionItem title="Neuster Shit" open=false icon="poo" align="left">}}
+  - Gewinner [Workaway Foto Wettbewerb](https://www.workaway.info/en/community/travel-photos/2026-07?#section-winner) Juli 2026 🎉
   - [Georgien-Übersicht]({{< relref "posts/georgia" >}})
   - [Türkei-Übersicht]({{< relref "posts/turkey" >}})
   - [Kamerun-Übersicht]({{< relref "posts/cameroon" >}})
